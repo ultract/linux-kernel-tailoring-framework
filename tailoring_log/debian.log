@@ -1,0 +1,237 @@
+Debian Kernel Tailoring Finished! 
+
+ Total 559 Minutes and 10 Seconds Elapsed... 
+ [ Final Tailored .config ] 
+ [ Analysis of Kernel Configuration file ] 
+ Groups : 144
+ Enable : 565
+ Module : 94
+ Disable : 1605
+ Etc(Str, Num) : 65
+
+ [ First Tailored .config ] 
+ [ Analysis of Kernel Configuration file ] 
+ Groups : 144
+ Enable : 364
+ Module : 75
+ Disable : 1391
+ Etc(Str, Num) : 47
+
+ [ Localmodconfig .config ]
+ [ Analysis of Kernel Configuration file ] 
+ Groups : 144
+ Enable : 1170
+ Module : 103
+ Disable : 2335
+ Etc(Str, Num) : 83
+
+ [ Original .config ]
+ [ Analysis of Kernel Configuration file ] 
+ Groups : 144
+ Enable : 1761
+ Module : 3202
+ Disable : 1602
+ Etc(Str, Num) : 139
+
+
+ [ Distribution of Final Tailored .config ]
+     190 arch
+     12 block
+     47 crypto
+    147 drivers
+     44 fs
+     84 init
+     55 kernel
+     63 lib
+     26 mm
+     28 net
+     17 security
+     19 sound
+      3 usr
+      1 virt 
+ [ Distribution of First Tailored .config ]
+     149 arch
+      8 block
+     35 crypto
+     92 drivers
+     21 fs
+     48 init
+     47 kernel
+     40 lib
+     18 mm
+     16 net
+      8 security
+     14 sound
+      1 virt 
+ [ Distribution of Localmodconfig .config ]
+     258 arch
+     32 block
+     49 crypto
+    474 drivers
+     55 fs
+    124 init
+     89 kernel
+     94 lib
+     47 mm
+     72 net
+     42 security
+     25 sound
+      7 usr
+      1 virt 
+ [ Distribution of original .config ]
+     273 arch
+     32 block
+    127 crypto
+   3111 drivers
+    261 fs
+    126 init
+     93 kernel
+    126 lib
+     52 mm
+    639 net
+     42 security
+    214 sound
+      7 usr
+     14 virt 
+
+ [ Test Failure Log Data ] 
+ RETPOLINE : phoronix-test-suite system-info - Before: Security:KPTI After: Security:KPTI
+journalctl log - > Spectre V2 : Spectre mitigation: kernel not compiled with retpoline; no mitigation available!
+
+DEVTMPFS : 
+
+EXT4_USE_FOR_EXT2 : 
+
+RD_GZIP : 
+
+VMAP_STACK : checksec kernel - Before: <   Virtually-mapped kernel stack:           [32mEnabled [m After: >   Virtually-mapped kernel stack:           [31mDisabled [m
+
+SLAB_FREELIST_RANDOM : checksec kernel - Before: <   SLAB freelist randomization:             [32mEnabled [m After: >   SLAB freelist randomization:             [31mDisabled [m
+
+DMIID : phoronix-test-suite system-info - Before: MOTHERBOARD:Intel
+BIOSVersion: After: MOTHERBOARD:
+
+NET_VENDOR_REALTEK : IPv4 Address Not Set(ip)
+Ping to Gateway(192.168.2.1) Failed
+phoronix-test-suite system-info - Before:  After: NoInternet
+journalctl log - > setsockopt(udp, IP_ADD_MEMBERSHIP)(0.0.0.0): No such device
+
+PAGE_TABLE_ISOLATION : phoronix-test-suite system-info - Before: Security:KPTI After: Security:__user
+
+RD_LZ4 : IPv4 Address Not Set(ip)
+Ping to Gateway(192.168.2.1) Failed
+phoronix-test-suite system-info - Before:  After: NoInternet
+journalctl log - > setsockopt(udp, IP_ADD_MEMBERSHIP)(0.0.0.0): No such device
+
+UNIX98_PTYS : 
+
+VT_CONSOLE : journalctl log - > /dev/ttyS0: not a tty
+
+SIGNALFD : 
+
+TMPFS_POSIX_ACL : journalctl log - > Failed to apply ACL on /dev/dri/card0: Operation not supported
+> Failed to apply ACL on /dev/snd/controlC0: Operation not supported
+> Failed to apply ACL on /dev/snd/midiC0D0: Operation not supported
+> Failed to apply ACL on /dev/snd/pcmC0D0c: Operation not supported
+> Failed to apply ACL on /dev/snd/pcmC0D0p: Operation not supported
+> Failed to apply ACL on /dev/snd/pcmC0D1p: Operation not supported
+> Failed to apply ACLs: Operation not supported
+
+PRINTER : journalctl log - > Failed to find module 'lp'
+
+UNIX : 
+
+EPOLL : 
+
+KEYBOARD_ATKBD : Keyboard Device Not Found!!
+
+PACKET : IPv4 Address Not Set(ip)
+Ping to Gateway(192.168.2.1) Failed
+phoronix-test-suite system-info - Before:  After: NoInternet
+journalctl log - > 
+> (Socket Filtering) are enabled in your kernel
+> CONFIG_PACKET (Packet socket) and CONFIG_FILTER
+> If you think you have received this message due to a bug rather
+> before submitting a bug.  These pages explain the proper
+> bugs on either our web page at www.isc.org or in the README file
+> configuration!
+> exiting.
+> process and the information we find helpful for debugging..
+> setsockopt(udp, IP_ADD_MEMBERSHIP)(0.0.0.0): No such device
+> socket: Address family not supported by protocol - make sure
+> than a configuration issue please read the section on submitting
+
+FILE_LOCKING : 
+
+INPUT_KEYBOARD : Keyboard Device Not Found!!
+
+TIMERFD : 
+
+MODULE_UNLOAD : Kernel Module Loading Failed!!
+
+SHMEM : 
+
+FUTEX : 
+
+CC_STACKPROTECTOR_STRONG : checksec kernel - Before: <   GCC stack protector support:             [32mEnabled [m After: >   GCC stack protector support:             [31mDisabled [m
+
+STRICT_DEVMEM : checksec kernel - Before: <   Restrict /dev/mem access:                [32mEnabled [m After: >   Restrict /dev/mem access:                [31mDisabled [m
+checksec - Restrict /dev/mem access Disabled
+
+BINFMT_SCRIPT : 
+
+IOSCHED_CFQ : phoronix-test-suite system-info - Before: DiskScheduler: After: DiskScheduler:
+
+RANDOMIZE_BASE : checksec kernel - Before: <   Address space layout randomization:      [32mEnabled [m After: >   Address space layout randomization:      [31mDisabled [m
+checksec - Kernel Address space layout randomization Disabled
+
+INOTIFY_USER : 
+
+RELOCATABLE : checksec kernel - Before: <   Address space layout randomization:      [32mEnabled [m After: >   Address space layout randomization:      [31mDisabled [m
+checksec - Kernel Address space layout randomization Disabled
+
+SWAP : Power Management - Disk(Suspend)
+Power Management - State(disk)
+
+TMPFS : 
+
+HIBERNATION : Power Management - Disk(Suspend)
+Power Management - State(disk)
+
+SECURITY_SELINUX : checksec kernel - Before: < * SELinux:                                 [31mDisabled [m After: > * SELinux:                                 [31mNo SELinux [m
+
+NAMESPACES : Mounted File System - < hugetlbfs
+Pulse Audio Hanging
+journalctl log - > Failed to start Hostname Service.
+> Failed to start RealtimeKit Scheduling Policy Service.
+> Failed to start Tracker metadata extractor.
+> Unrecoverable failure in required component org.gnome.Shell.desktop
+> rtkit-daemon.service: Failed at step NETWORK spawning /usr/lib/rtkit/rtkit-daemon: Invalid argument
+> setsockopt(udp, IP_ADD_MEMBERSHIP)(0.0.0.0): No such device
+> systemd-hostnamed.service: Failed at step NETWORK spawning /lib/systemd/systemd-hostnamed: Invalid argument
+
+DMI : phoronix-test-suite system-info - Before: MOTHERBOARD:Intel
+BIOSVersion: After: MOTHERBOARD:
+
+PARPORT : journalctl log - > Failed to find module 'lp'
+> Failed to find module 'parport_pc'
+> Failed to find module 'ppdev'
+
+MULTIUSER : 
+
+AUDIT : checksec kernel - Before: < * SELinux:                                 [31mDisabled [m After: > * SELinux:                                 [31mNo SELinux [m
+
+IPV6 : IPv6 Address Not Set(ip)
+journalctl log - > <error> [1534187997.4894] device (enp2s1): addrconf6: failed to start neighbor discovery: failure creating libndp socket: 주소군을 규약에서 지원하지 않음 (97)
+> Failed to start Tracker metadata extractor.
+
+SERIAL_8250 : journalctl log - > bad device "/dev/ttyS0" given
+
+SECURITY : checksec kernel - Before: < * SELinux:                                 [31mDisabled [m After: > * SELinux:                                 [31mNo SELinux [m
+
+VT : 
+
+SYSFS : 
+
+TTY :  
+ [ Kernel Build Failure Configuration ]

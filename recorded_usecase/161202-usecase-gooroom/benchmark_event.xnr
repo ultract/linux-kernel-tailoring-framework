@@ -1,0 +1,1253 @@
+####################################
+#         System information       #
+####################################
+# Date:                   2016:10:06 
+# Time:                   21:11:51 
+# Xnee program:           cnee 
+# Xnee version:           3.19 
+# Xnee home:              http://www.gnu.org/software/xnee/ 
+# Xnee info mailing list: info-xnee@gnu.org 
+# Xnee bug mailing list:  bug-xnee@gnu.org 
+# X version:              11 
+# X revision:             0 
+# X vendor:               The X.Org Foundation 
+# X vendor release:       11604000 
+# Record version major:   1
+# Record version minor:   13
+# OS name:                Linux 
+# OS Release:             4.7.0-0.bpo.1-amd64 
+# OS Version:             #1 SMP gooroom 4.7.2-1~bpo8+1+grm1 (2016-09-29) 
+# Machine:                x86_64 
+# Nodename:               localhost 
+# Display name:           :0.0
+# Dimension:              1440x900
+
+
+
+##############################################
+#      Xnee application arguments            #
+##############################################
+#  cnee --record --keyboard --mouse -o ./benchmark_event.xnr --time 5 
+
+
+##############################################
+#      Displays                              #
+##############################################
+# display :0.0
+# distribute
+
+
+##############################################
+#      Files                                 #
+##############################################
+# out-file ./benchmark_event.xnr
+# err-file stderr
+
+
+##############################################
+#      Key Grabs                             #
+##############################################
+# stop-key         0
+# pause-key        0
+# resume-key       0
+# insert-key       0
+# exec-key         0
+# exec-program-key         xnee-exec-no-program
+
+
+##############################################
+#      Recording limits etc                  #
+##############################################
+
+events-to-record        -1
+data-to-record          -1
+seconds-to-record       -1
+# first-last
+
+# Record  all (including current) clients or only future ones
+all-clients
+# future-clients
+
+# Store the starting mouse position 
+# store-mouse-position
+
+
+##############################################
+#      Resolution                            #
+##############################################
+
+# Resolution
+#recorded-resolution  1440x900
+#replay-resolution  1x1
+#resolution-adjustment  0
+
+
+##############################################
+#      Speed                                 #
+##############################################
+
+# Speed
+#speed-percent  100
+
+
+##############################################
+#      Replaying limits etc                  #
+##############################################
+
+max-threshold 20 
+min-threshold 20 
+tot-threshold 40 
+
+
+##############################################
+#      Feedback                              #
+##############################################
+#feedback-none
+#feedback-stderr
+feedback-xosd
+ 
+
+
+##############################################
+#      Various                               #
+##############################################
+
+# Plugin file 
+
+# Modes (currently not used)
+# synchronised-replay
+
+# Replay offset
+#replay-offset 0x0
+
+# Human printout of X11 data (instead of Xnee format)
+# human-printout  
+
+# Delay before starting record/replay
+# time 5
+
+# No recording of ReparentNotify
+# no-reparent-recording 
+
+# Various
+#########################################
+#          Record settings              #
+#########################################
+#   data_flags          7
+#   rState              0x2192020
+#   xids[0]             3
+#   xids[1]             0
+# Number of Ranges      2
+# RecordRange[0]
+request-range            0-0
+reply-range                   0-0 
+extension-request-major-range  0-0 
+extension-request-minor-range  0-0 
+extension-reply-major-range   0-0
+extension-reply-minor-range   0-0 
+delivered-event-range         21-21 
+device-event-range            2-6 
+error-range                   0-0 
+# RecordRange[1]
+request-range            0-0
+reply-range                   0-0 
+extension-request-major-range  0-0 
+extension-request-minor-range  0-0 
+extension-reply-major-range   0-0
+extension-reply-minor-range   0-0 
+delivered-event-range         0-0 
+device-event-range            66-71 
+error-range                   0-0 
+7,6,316,536,0,0,0,3664124,9,'ImPS/2 BYD TouchPad'
+7,6,315,537,0,0,0,3664131,9,'ImPS/2 BYD TouchPad'
+7,6,314,540,0,0,0,3664141,9,'ImPS/2 BYD TouchPad'
+7,6,312,545,0,0,0,3664149,9,'ImPS/2 BYD TouchPad'
+7,6,310,547,0,0,0,3664157,9,'ImPS/2 BYD TouchPad'
+7,6,309,549,0,0,0,3664165,9,'ImPS/2 BYD TouchPad'
+7,6,308,551,0,0,0,3664173,9,'ImPS/2 BYD TouchPad'
+7,6,306,553,0,0,0,3664184,9,'ImPS/2 BYD TouchPad'
+7,6,304,557,0,0,0,3664192,9,'ImPS/2 BYD TouchPad'
+7,6,302,558,0,0,0,3664200,9,'ImPS/2 BYD TouchPad'
+7,6,301,560,0,0,0,3664208,9,'ImPS/2 BYD TouchPad'
+7,6,300,561,0,0,0,3664216,9,'ImPS/2 BYD TouchPad'
+7,6,298,563,0,0,0,3664228,9,'ImPS/2 BYD TouchPad'
+7,6,296,565,0,0,0,3664236,9,'ImPS/2 BYD TouchPad'
+7,6,295,567,0,0,0,3664244,9,'ImPS/2 BYD TouchPad'
+7,6,293,569,0,0,0,3664252,9,'ImPS/2 BYD TouchPad'
+7,6,291,571,0,0,0,3664260,9,'ImPS/2 BYD TouchPad'
+7,6,289,573,0,0,0,3664269,9,'ImPS/2 BYD TouchPad'
+7,6,286,576,0,0,0,3664277,9,'ImPS/2 BYD TouchPad'
+7,6,280,580,0,0,0,3664285,9,'ImPS/2 BYD TouchPad'
+7,6,274,585,0,0,0,3664293,9,'ImPS/2 BYD TouchPad'
+7,6,268,590,0,0,0,3664301,9,'ImPS/2 BYD TouchPad'
+7,6,261,597,0,0,0,3664311,9,'ImPS/2 BYD TouchPad'
+7,6,251,605,0,0,0,3664320,9,'ImPS/2 BYD TouchPad'
+7,6,246,610,0,0,0,3664328,9,'ImPS/2 BYD TouchPad'
+7,6,241,613,0,0,0,3664336,9,'ImPS/2 BYD TouchPad'
+7,6,236,617,0,0,0,3664344,9,'ImPS/2 BYD TouchPad'
+7,6,234,622,0,0,0,3664354,9,'ImPS/2 BYD TouchPad'
+7,6,231,625,0,0,0,3664362,9,'ImPS/2 BYD TouchPad'
+7,6,228,628,0,0,0,3664370,9,'ImPS/2 BYD TouchPad'
+7,6,226,631,0,0,0,3664378,9,'ImPS/2 BYD TouchPad'
+7,6,222,635,0,0,0,3664386,9,'ImPS/2 BYD TouchPad'
+7,6,218,641,0,0,0,3664396,9,'ImPS/2 BYD TouchPad'
+7,6,210,651,0,0,0,3664404,9,'ImPS/2 BYD TouchPad'
+7,6,204,657,0,0,0,3664412,9,'ImPS/2 BYD TouchPad'
+7,6,199,665,0,0,0,3664420,9,'ImPS/2 BYD TouchPad'
+7,6,194,674,0,0,0,3664428,9,'ImPS/2 BYD TouchPad'
+7,6,190,681,0,0,0,3664437,9,'ImPS/2 BYD TouchPad'
+7,6,183,689,0,0,0,3664446,9,'ImPS/2 BYD TouchPad'
+7,6,180,697,0,0,0,3664454,9,'ImPS/2 BYD TouchPad'
+7,6,176,703,0,0,0,3664462,9,'ImPS/2 BYD TouchPad'
+7,6,173,710,0,0,0,3664470,9,'ImPS/2 BYD TouchPad'
+7,6,168,717,0,0,0,3664480,9,'ImPS/2 BYD TouchPad'
+7,6,164,726,0,0,0,3664488,9,'ImPS/2 BYD TouchPad'
+7,6,159,733,0,0,0,3664496,9,'ImPS/2 BYD TouchPad'
+7,6,156,740,0,0,0,3664504,9,'ImPS/2 BYD TouchPad'
+7,6,152,745,0,0,0,3664512,9,'ImPS/2 BYD TouchPad'
+7,6,151,751,0,0,0,3664521,9,'ImPS/2 BYD TouchPad'
+7,6,147,757,0,0,0,3664530,9,'ImPS/2 BYD TouchPad'
+7,6,145,759,0,0,0,3664538,9,'ImPS/2 BYD TouchPad'
+7,6,144,763,0,0,0,3664546,9,'ImPS/2 BYD TouchPad'
+7,6,142,766,0,0,0,3664554,9,'ImPS/2 BYD TouchPad'
+7,6,141,769,0,0,0,3664564,9,'ImPS/2 BYD TouchPad'
+7,6,139,773,0,0,0,3664572,9,'ImPS/2 BYD TouchPad'
+7,6,136,777,0,0,0,3664580,9,'ImPS/2 BYD TouchPad'
+7,6,134,780,0,0,0,3664588,9,'ImPS/2 BYD TouchPad'
+7,6,133,783,0,0,0,3664596,9,'ImPS/2 BYD TouchPad'
+7,6,131,788,0,0,0,3664606,9,'ImPS/2 BYD TouchPad'
+7,6,128,793,0,0,0,3664614,9,'ImPS/2 BYD TouchPad'
+7,6,127,796,0,0,0,3664621,9,'ImPS/2 BYD TouchPad'
+7,6,126,799,0,0,0,3664630,9,'ImPS/2 BYD TouchPad'
+7,6,125,801,0,0,0,3664638,9,'ImPS/2 BYD TouchPad'
+7,6,124,803,0,0,0,3664648,9,'ImPS/2 BYD TouchPad'
+7,6,124,806,0,0,0,3664656,9,'ImPS/2 BYD TouchPad'
+7,6,123,809,0,0,0,3664664,9,'ImPS/2 BYD TouchPad'
+7,6,122,811,0,0,0,3664672,9,'ImPS/2 BYD TouchPad'
+7,6,122,814,0,0,0,3664680,9,'ImPS/2 BYD TouchPad'
+7,6,121,817,0,0,0,3664692,9,'ImPS/2 BYD TouchPad'
+7,6,121,820,0,0,0,3664702,9,'ImPS/2 BYD TouchPad'
+7,6,121,822,0,0,0,3664716,9,'ImPS/2 BYD TouchPad'
+7,6,121,824,0,0,0,3664726,9,'ImPS/2 BYD TouchPad'
+7,6,121,825,0,0,0,3664736,9,'ImPS/2 BYD TouchPad'
+7,6,121,826,0,0,0,3664746,9,'ImPS/2 BYD TouchPad'
+7,6,121,827,0,0,0,3664754,9,'ImPS/2 BYD TouchPad'
+7,6,121,829,0,0,0,3664764,9,'ImPS/2 BYD TouchPad'
+7,6,121,831,0,0,0,3664776,9,'ImPS/2 BYD TouchPad'
+7,6,121,834,0,0,0,3664786,9,'ImPS/2 BYD TouchPad'
+7,6,121,837,0,0,0,3664796,9,'ImPS/2 BYD TouchPad'
+7,6,121,839,0,0,0,3664808,9,'ImPS/2 BYD TouchPad'
+7,6,121,841,0,0,0,3664818,9,'ImPS/2 BYD TouchPad'
+7,6,121,843,0,0,0,3664827,9,'ImPS/2 BYD TouchPad'
+7,6,122,845,0,0,0,3664838,9,'ImPS/2 BYD TouchPad'
+7,6,122,848,0,0,0,3664846,9,'ImPS/2 BYD TouchPad'
+7,6,122,850,0,0,0,3664854,9,'ImPS/2 BYD TouchPad'
+7,6,121,852,0,0,0,3664862,9,'ImPS/2 BYD TouchPad'
+7,6,121,855,0,0,0,3664873,9,'ImPS/2 BYD TouchPad'
+7,6,121,858,0,0,0,3664883,9,'ImPS/2 BYD TouchPad'
+7,6,121,861,0,0,0,3664892,9,'ImPS/2 BYD TouchPad'
+7,6,121,864,0,0,0,3664904,9,'ImPS/2 BYD TouchPad'
+7,6,121,867,0,0,0,3664914,9,'ImPS/2 BYD TouchPad'
+7,6,121,869,0,0,0,3664922,9,'ImPS/2 BYD TouchPad'
+7,6,120,870,0,0,0,3664936,9,'ImPS/2 BYD TouchPad'
+7,6,119,872,0,0,0,3664950,9,'ImPS/2 BYD TouchPad'
+7,6,119,874,0,0,0,3664964,9,'ImPS/2 BYD TouchPad'
+7,6,119,875,0,0,0,3664974,9,'ImPS/2 BYD TouchPad'
+7,6,118,876,0,0,0,3664984,9,'ImPS/2 BYD TouchPad'
+7,6,118,877,0,0,0,3664994,9,'ImPS/2 BYD TouchPad'
+7,6,118,879,0,0,0,3665006,9,'ImPS/2 BYD TouchPad'
+7,6,118,880,0,0,0,3665020,9,'ImPS/2 BYD TouchPad'
+7,4,0,0,1,0,0,3665244,9,ImPS/2 BYD TouchPad
+6,4,0,0,1,0,0,3665244,2,Virtual core pointer
+7,5,0,0,1,0,0,3665329,9,ImPS/2 BYD TouchPad
+6,5,0,0,1,0,0,3665329,2,Virtual core pointer
+7,4,0,0,1,0,0,3665836,9,ImPS/2 BYD TouchPad
+6,4,0,0,1,0,0,3665836,2,Virtual core pointer
+7,5,0,0,1,0,0,3665925,9,ImPS/2 BYD TouchPad
+6,5,0,0,1,0,0,3665925,2,Virtual core pointer
+7,4,0,0,1,0,0,3666340,9,ImPS/2 BYD TouchPad
+6,4,0,0,1,0,0,3666340,2,Virtual core pointer
+7,5,0,0,1,0,0,3666429,9,ImPS/2 BYD TouchPad
+6,5,0,0,1,0,0,3666429,2,Virtual core pointer
+7,4,0,0,1,0,0,3666812,9,ImPS/2 BYD TouchPad
+6,4,0,0,1,0,0,3666812,2,Virtual core pointer
+7,5,0,0,1,0,0,3666891,9,ImPS/2 BYD TouchPad
+6,5,0,0,1,0,0,3666891,2,Virtual core pointer
+7,4,0,0,1,0,0,3667328,9,ImPS/2 BYD TouchPad
+6,4,0,0,1,0,0,3667328,2,Virtual core pointer
+7,5,0,0,1,0,0,3667429,9,ImPS/2 BYD TouchPad
+6,5,0,0,1,0,0,3667429,2,Virtual core pointer
+7,6,117,881,0,0,0,3668138,9,'ImPS/2 BYD TouchPad'
+7,6,116,881,0,0,0,3668148,9,'ImPS/2 BYD TouchPad'
+7,6,114,882,0,0,0,3668156,9,'ImPS/2 BYD TouchPad'
+7,6,111,882,0,0,0,3668168,9,'ImPS/2 BYD TouchPad'
+7,6,108,884,0,0,0,3668178,9,'ImPS/2 BYD TouchPad'
+7,6,105,885,0,0,0,3668188,9,'ImPS/2 BYD TouchPad'
+7,6,102,886,0,0,0,3668198,9,'ImPS/2 BYD TouchPad'
+7,6,100,886,0,0,0,3668206,9,'ImPS/2 BYD TouchPad'
+7,6,98,887,0,0,0,3668214,9,'ImPS/2 BYD TouchPad'
+7,6,95,888,0,0,0,3668222,9,'ImPS/2 BYD TouchPad'
+7,6,92,888,0,0,0,3668232,9,'ImPS/2 BYD TouchPad'
+7,6,88,888,0,0,0,3668240,9,'ImPS/2 BYD TouchPad'
+7,6,86,889,0,0,0,3668248,9,'ImPS/2 BYD TouchPad'
+7,6,83,889,0,0,0,3668256,9,'ImPS/2 BYD TouchPad'
+7,6,81,889,0,0,0,3668265,9,'ImPS/2 BYD TouchPad'
+7,6,79,889,0,0,0,3668276,9,'ImPS/2 BYD TouchPad'
+7,6,76,889,0,0,0,3668284,9,'ImPS/2 BYD TouchPad'
+7,6,74,890,0,0,0,3668291,9,'ImPS/2 BYD TouchPad'
+7,6,70,890,0,0,0,3668300,9,'ImPS/2 BYD TouchPad'
+7,6,67,890,0,0,0,3668308,9,'ImPS/2 BYD TouchPad'
+7,6,63,891,0,0,0,3668320,9,'ImPS/2 BYD TouchPad'
+7,6,58,892,0,0,0,3668329,9,'ImPS/2 BYD TouchPad'
+7,6,55,892,0,0,0,3668340,9,'ImPS/2 BYD TouchPad'
+7,6,53,893,0,0,0,3668356,9,'ImPS/2 BYD TouchPad'
+7,6,52,893,0,0,0,3668580,9,'ImPS/2 BYD TouchPad'
+7,4,0,0,1,0,0,3668702,9,ImPS/2 BYD TouchPad
+6,4,0,0,1,0,0,3668702,2,Virtual core pointer
+7,5,0,0,1,0,0,3668791,9,ImPS/2 BYD TouchPad
+6,5,0,0,1,0,0,3668791,2,Virtual core pointer
+0,21,0,0,0,0,0,3668804
+NEW-WINDOW:0,468:35651703,35651703,14685336,0,0,0:0x0+325+400:0,0:Whisker Menu
+0,21,0,0,0,0,0,3668804
+0,21,0,0,0,0,0,3668804
+0,21,0,0,0,0,0,3668804
+0,21,0,0,0,0,0,3668804
+7,6,51,893,0,0,0,3668820,9,'ImPS/2 BYD TouchPad'
+7,6,52,893,0,0,0,3668830,9,'ImPS/2 BYD TouchPad'
+7,6,52,892,0,0,0,3668840,9,'ImPS/2 BYD TouchPad'
+7,6,52,891,0,0,0,3668850,9,'ImPS/2 BYD TouchPad'
+7,6,53,891,0,0,0,3668860,9,'ImPS/2 BYD TouchPad'
+7,6,54,890,0,0,0,3668870,9,'ImPS/2 BYD TouchPad'
+7,6,54,889,0,0,0,3668880,9,'ImPS/2 BYD TouchPad'
+7,6,56,887,0,0,0,3668888,9,'ImPS/2 BYD TouchPad'
+7,6,58,886,0,0,0,3668897,9,'ImPS/2 BYD TouchPad'
+7,6,59,884,0,0,0,3668908,9,'ImPS/2 BYD TouchPad'
+7,6,61,882,0,0,0,3668920,9,'ImPS/2 BYD TouchPad'
+7,6,65,879,0,0,0,3668928,9,'ImPS/2 BYD TouchPad'
+7,6,68,877,0,0,0,3668936,9,'ImPS/2 BYD TouchPad'
+7,6,71,874,0,0,0,3668944,9,'ImPS/2 BYD TouchPad'
+7,6,74,871,0,0,0,3668952,9,'ImPS/2 BYD TouchPad'
+7,6,80,867,0,0,0,3668961,9,'ImPS/2 BYD TouchPad'
+7,6,89,859,0,0,0,3668969,9,'ImPS/2 BYD TouchPad'
+7,6,96,852,0,0,0,3668978,9,'ImPS/2 BYD TouchPad'
+7,6,102,844,0,0,0,3668986,9,'ImPS/2 BYD TouchPad'
+7,6,110,836,0,0,0,3668996,9,'ImPS/2 BYD TouchPad'
+7,6,120,826,0,0,0,3669006,9,'ImPS/2 BYD TouchPad'
+7,6,128,815,0,0,0,3669014,9,'ImPS/2 BYD TouchPad'
+7,6,136,805,0,0,0,3669022,9,'ImPS/2 BYD TouchPad'
+7,6,144,795,0,0,0,3669030,9,'ImPS/2 BYD TouchPad'
+7,6,153,785,0,0,0,3669038,9,'ImPS/2 BYD TouchPad'
+7,6,162,776,0,0,0,3669048,9,'ImPS/2 BYD TouchPad'
+7,6,170,764,0,0,0,3669056,9,'ImPS/2 BYD TouchPad'
+7,6,174,758,0,0,0,3669066,9,'ImPS/2 BYD TouchPad'
+7,6,179,750,0,0,0,3669074,9,'ImPS/2 BYD TouchPad'
+7,6,183,743,0,0,0,3669084,9,'ImPS/2 BYD TouchPad'
+7,6,188,738,0,0,0,3669093,9,'ImPS/2 BYD TouchPad'
+7,6,190,735,0,0,0,3669101,9,'ImPS/2 BYD TouchPad'
+7,6,192,733,0,0,0,3669109,9,'ImPS/2 BYD TouchPad'
+7,6,194,730,0,0,0,3669117,9,'ImPS/2 BYD TouchPad'
+7,6,197,728,0,0,0,3669128,9,'ImPS/2 BYD TouchPad'
+7,6,199,724,0,0,0,3669136,9,'ImPS/2 BYD TouchPad'
+7,6,202,722,0,0,0,3669144,9,'ImPS/2 BYD TouchPad'
+7,6,204,719,0,0,0,3669152,9,'ImPS/2 BYD TouchPad'
+7,6,206,717,0,0,0,3669160,9,'ImPS/2 BYD TouchPad'
+7,6,208,714,0,0,0,3669170,9,'ImPS/2 BYD TouchPad'
+7,6,212,710,0,0,0,3669180,9,'ImPS/2 BYD TouchPad'
+7,6,215,707,0,0,0,3669190,9,'ImPS/2 BYD TouchPad'
+7,6,218,704,0,0,0,3669202,9,'ImPS/2 BYD TouchPad'
+7,6,220,701,0,0,0,3669212,9,'ImPS/2 BYD TouchPad'
+7,6,221,699,0,0,0,3669231,9,'ImPS/2 BYD TouchPad'
+7,6,222,699,0,0,0,3669596,9,'ImPS/2 BYD TouchPad'
+7,6,221,698,0,0,0,3669604,9,'ImPS/2 BYD TouchPad'
+7,6,219,696,0,0,0,3669611,9,'ImPS/2 BYD TouchPad'
+7,6,217,693,0,0,0,3669620,9,'ImPS/2 BYD TouchPad'
+7,6,214,691,0,0,0,3669628,9,'ImPS/2 BYD TouchPad'
+7,6,211,688,0,0,0,3669635,9,'ImPS/2 BYD TouchPad'
+7,6,207,686,0,0,0,3669645,9,'ImPS/2 BYD TouchPad'
+7,6,201,680,0,0,0,3669653,9,'ImPS/2 BYD TouchPad'
+7,6,198,676,0,0,0,3669661,9,'ImPS/2 BYD TouchPad'
+7,6,193,671,0,0,0,3669669,9,'ImPS/2 BYD TouchPad'
+7,6,187,668,0,0,0,3669678,9,'ImPS/2 BYD TouchPad'
+7,6,184,665,0,0,0,3669688,9,'ImPS/2 BYD TouchPad'
+7,6,181,664,0,0,0,3669698,9,'ImPS/2 BYD TouchPad'
+7,6,178,662,0,0,0,3669707,9,'ImPS/2 BYD TouchPad'
+7,6,174,661,0,0,0,3669715,9,'ImPS/2 BYD TouchPad'
+7,6,171,660,0,0,0,3669724,9,'ImPS/2 BYD TouchPad'
+7,6,169,659,0,0,0,3669733,9,'ImPS/2 BYD TouchPad'
+7,6,166,658,0,0,0,3669742,9,'ImPS/2 BYD TouchPad'
+7,6,164,658,0,0,0,3669749,9,'ImPS/2 BYD TouchPad'
+7,6,162,657,0,0,0,3669757,9,'ImPS/2 BYD TouchPad'
+7,6,160,656,0,0,0,3669770,9,'ImPS/2 BYD TouchPad'
+7,6,159,655,0,0,0,3669780,9,'ImPS/2 BYD TouchPad'
+7,6,158,654,0,0,0,3669787,9,'ImPS/2 BYD TouchPad'
+7,6,156,654,0,0,0,3669796,9,'ImPS/2 BYD TouchPad'
+7,6,156,653,0,0,0,3669805,9,'ImPS/2 BYD TouchPad'
+7,6,155,653,0,0,0,3669815,9,'ImPS/2 BYD TouchPad'
+7,6,154,652,0,0,0,3669824,9,'ImPS/2 BYD TouchPad'
+7,6,153,652,0,0,0,3669832,9,'ImPS/2 BYD TouchPad'
+7,6,152,651,0,0,0,3669846,9,'ImPS/2 BYD TouchPad'
+7,6,151,651,0,0,0,3669856,9,'ImPS/2 BYD TouchPad'
+7,6,150,651,0,0,0,3669866,9,'ImPS/2 BYD TouchPad'
+7,4,0,0,1,0,0,3669956,9,ImPS/2 BYD TouchPad
+6,4,0,0,1,0,0,3669956,2,Virtual core pointer
+7,5,0,0,1,0,0,3670043,9,ImPS/2 BYD TouchPad
+6,5,0,0,1,0,0,3670043,2,Virtual core pointer
+0,21,0,0,0,0,0,3670045
+NEW-WINDOW:0,468:35651703,35651703,401,0,468,0:0x468+325+400:0,0:Whisker Menu
+0,21,0,0,0,0,0,3670045
+0,21,0,0,0,0,0,3670045
+0,21,0,0,0,0,0,3670045
+0,21,0,0,0,0,0,3670045
+0,21,0,0,0,0,0,3670103
+NEW-WINDOW:5,23:33555452,33555452,14685470,5,23,0:5x23+655+382:0,0:
+0,21,0,0,0,0,0,3670103
+0,21,0,0,0,0,0,3670103
+7,6,149,651,0,0,0,3670343,9,'ImPS/2 BYD TouchPad'
+7,6,149,650,0,0,0,3670353,9,'ImPS/2 BYD TouchPad'
+7,6,151,650,0,0,0,3670363,9,'ImPS/2 BYD TouchPad'
+7,6,154,649,0,0,0,3670378,9,'ImPS/2 BYD TouchPad'
+7,6,155,648,0,0,0,3670457,9,'ImPS/2 BYD TouchPad'
+7,6,156,648,0,0,0,3670468,9,'ImPS/2 BYD TouchPad'
+7,6,157,647,0,0,0,3670477,9,'ImPS/2 BYD TouchPad'
+7,6,159,647,0,0,0,3670577,9,'ImPS/2 BYD TouchPad'
+7,6,158,647,0,0,0,3670585,9,'ImPS/2 BYD TouchPad'
+7,6,154,647,0,0,0,3670594,9,'ImPS/2 BYD TouchPad'
+7,6,143,645,0,0,0,3670601,9,'ImPS/2 BYD TouchPad'
+7,6,128,648,0,0,0,3670609,9,'ImPS/2 BYD TouchPad'
+7,6,105,657,0,0,0,3670618,9,'ImPS/2 BYD TouchPad'
+7,6,76,667,0,0,0,3670628,9,'ImPS/2 BYD TouchPad'
+7,2,0,0,0,36,0,3671485,8,AT Translated Set 2 keyboard
+6,2,0,0,0,36,0,3671486,3,Virtual core keyboard
+7,3,0,0,0,36,0,3671541,8,AT Translated Set 2 keyboard
+6,3,0,0,0,36,0,3671541,3,Virtual core keyboard
+7,2,0,0,0,36,0,3671629,8,AT Translated Set 2 keyboard
+6,2,0,0,0,36,0,3671629,3,Virtual core keyboard
+7,3,0,0,0,36,0,3671677,8,AT Translated Set 2 keyboard
+6,3,0,0,0,36,0,3671677,3,Virtual core keyboard
+7,2,0,0,0,26,0,3671749,8,AT Translated Set 2 keyboard
+6,2,0,0,0,26,0,3671749,3,Virtual core keyboard
+7,3,0,0,0,26,0,3671829,8,AT Translated Set 2 keyboard
+6,3,0,0,0,26,0,3671829,3,Virtual core keyboard
+7,2,0,0,0,54,0,3671981,8,AT Translated Set 2 keyboard
+6,2,0,0,0,54,0,3671981,3,Virtual core keyboard
+7,3,0,0,0,54,0,3672069,8,AT Translated Set 2 keyboard
+6,3,0,0,0,54,0,3672069,3,Virtual core keyboard
+7,2,0,0,0,43,0,3672101,8,AT Translated Set 2 keyboard
+6,2,0,0,0,43,0,3672101,3,Virtual core keyboard
+7,2,0,0,0,32,0,3672157,8,AT Translated Set 2 keyboard
+6,2,0,0,0,32,0,3672157,3,Virtual core keyboard
+7,3,0,0,0,43,0,3672189,8,AT Translated Set 2 keyboard
+6,3,0,0,0,43,0,3672189,3,Virtual core keyboard
+7,3,0,0,0,32,0,3672229,8,AT Translated Set 2 keyboard
+6,3,0,0,0,32,0,3672229,3,Virtual core keyboard
+7,2,0,0,0,65,0,3672389,8,AT Translated Set 2 keyboard
+6,2,0,0,0,65,0,3672389,3,Virtual core keyboard
+7,3,0,0,0,65,0,3672493,8,AT Translated Set 2 keyboard
+6,3,0,0,0,65,0,3672493,3,Virtual core keyboard
+7,2,0,0,0,62,0,3672669,8,AT Translated Set 2 keyboard
+6,2,0,0,0,62,0,3672669,3,Virtual core keyboard
+7,2,0,0,0,48,0,3672733,8,AT Translated Set 2 keyboard
+6,2,0,0,0,48,0,3672733,3,Virtual core keyboard
+7,3,0,0,0,48,0,3672781,8,AT Translated Set 2 keyboard
+6,3,0,0,0,48,0,3672781,3,Virtual core keyboard
+7,2,0,0,0,48,0,3672869,8,AT Translated Set 2 keyboard
+6,2,0,0,0,48,0,3672869,3,Virtual core keyboard
+7,3,0,0,0,48,0,3672925,8,AT Translated Set 2 keyboard
+6,3,0,0,0,48,0,3672925,3,Virtual core keyboard
+7,3,0,0,0,62,0,3672949,8,AT Translated Set 2 keyboard
+6,3,0,0,0,62,0,3672949,3,Virtual core keyboard
+7,2,0,0,0,113,0,3673126,8,AT Translated Set 2 keyboard
+6,2,0,0,0,113,0,3673126,3,Virtual core keyboard
+7,3,0,0,0,113,0,3673205,8,AT Translated Set 2 keyboard
+6,3,0,0,0,113,0,3673205,3,Virtual core keyboard
+7,2,0,0,0,62,0,3673933,8,AT Translated Set 2 keyboard
+6,2,0,0,0,62,0,3673933,3,Virtual core keyboard
+7,2,0,0,0,39,0,3674013,8,AT Translated Set 2 keyboard
+6,2,0,0,0,39,0,3674013,3,Virtual core keyboard
+7,3,0,0,0,62,0,3674061,8,AT Translated Set 2 keyboard
+6,3,0,0,0,62,0,3674061,3,Virtual core keyboard
+7,3,0,0,0,39,0,3674085,8,AT Translated Set 2 keyboard
+6,3,0,0,0,39,0,3674085,3,Virtual core keyboard
+7,2,0,0,0,28,0,3674157,8,AT Translated Set 2 keyboard
+6,2,0,0,0,28,0,3674157,3,Virtual core keyboard
+7,3,0,0,0,28,0,3674229,8,AT Translated Set 2 keyboard
+6,3,0,0,0,28,0,3674229,3,Virtual core keyboard
+7,2,0,0,0,38,0,3674317,8,AT Translated Set 2 keyboard
+6,2,0,0,0,38,0,3674317,3,Virtual core keyboard
+7,2,0,0,0,27,0,3674357,8,AT Translated Set 2 keyboard
+6,2,0,0,0,27,0,3674357,3,Virtual core keyboard
+7,3,0,0,0,38,0,3674381,8,AT Translated Set 2 keyboard
+6,3,0,0,0,38,0,3674381,3,Virtual core keyboard
+7,3,0,0,0,27,0,3674421,8,AT Translated Set 2 keyboard
+6,3,0,0,0,27,0,3674421,3,Virtual core keyboard
+7,2,0,0,0,28,0,3674509,8,AT Translated Set 2 keyboard
+6,2,0,0,0,28,0,3674509,3,Virtual core keyboard
+7,3,0,0,0,28,0,3674597,8,AT Translated Set 2 keyboard
+6,3,0,0,0,28,0,3674597,3,Virtual core keyboard
+7,2,0,0,0,65,0,3674629,8,AT Translated Set 2 keyboard
+6,2,0,0,0,65,0,3674629,3,Virtual core keyboard
+7,3,0,0,0,65,0,3674693,8,AT Translated Set 2 keyboard
+6,3,0,0,0,65,0,3674693,3,Virtual core keyboard
+7,2,0,0,0,62,0,3674765,8,AT Translated Set 2 keyboard
+6,2,0,0,0,62,0,3674765,3,Virtual core keyboard
+7,2,0,0,0,56,0,3675125,8,AT Translated Set 2 keyboard
+6,2,0,0,0,56,0,3675125,3,Virtual core keyboard
+7,3,0,0,0,56,0,3675229,8,AT Translated Set 2 keyboard
+6,3,0,0,0,56,0,3675229,3,Virtual core keyboard
+7,3,0,0,0,62,0,3675277,8,AT Translated Set 2 keyboard
+6,3,0,0,0,62,0,3675277,3,Virtual core keyboard
+7,2,0,0,0,26,0,3675365,8,AT Translated Set 2 keyboard
+6,2,0,0,0,26,0,3675365,3,Virtual core keyboard
+7,3,0,0,0,26,0,3675445,8,AT Translated Set 2 keyboard
+6,3,0,0,0,26,0,3675445,3,Virtual core keyboard
+7,2,0,0,0,57,0,3675461,8,AT Translated Set 2 keyboard
+6,2,0,0,0,57,0,3675461,3,Virtual core keyboard
+7,3,0,0,0,57,0,3675533,8,AT Translated Set 2 keyboard
+6,3,0,0,0,57,0,3675533,3,Virtual core keyboard
+7,2,0,0,0,54,0,3675661,8,AT Translated Set 2 keyboard
+6,2,0,0,0,54,0,3675661,3,Virtual core keyboard
+7,2,0,0,0,43,0,3675749,8,AT Translated Set 2 keyboard
+6,2,0,0,0,43,0,3675749,3,Virtual core keyboard
+7,3,0,0,0,54,0,3675773,8,AT Translated Set 2 keyboard
+6,3,0,0,0,54,0,3675773,3,Virtual core keyboard
+7,3,0,0,0,43,0,3675853,8,AT Translated Set 2 keyboard
+6,3,0,0,0,43,0,3675853,3,Virtual core keyboard
+7,2,0,0,0,58,0,3676133,8,AT Translated Set 2 keyboard
+6,2,0,0,0,58,0,3676133,3,Virtual core keyboard
+7,2,0,0,0,38,0,3676213,8,AT Translated Set 2 keyboard
+6,2,0,0,0,38,0,3676213,3,Virtual core keyboard
+7,3,0,0,0,58,0,3676221,8,AT Translated Set 2 keyboard
+6,3,0,0,0,58,0,3676221,3,Virtual core keyboard
+7,3,0,0,0,38,0,3676285,8,AT Translated Set 2 keyboard
+6,3,0,0,0,38,0,3676285,3,Virtual core keyboard
+7,2,0,0,0,27,0,3676389,8,AT Translated Set 2 keyboard
+6,2,0,0,0,27,0,3676389,3,Virtual core keyboard
+7,2,0,0,0,45,0,3676461,8,AT Translated Set 2 keyboard
+6,2,0,0,0,45,0,3676461,3,Virtual core keyboard
+7,3,0,0,0,27,0,3676501,8,AT Translated Set 2 keyboard
+6,3,0,0,0,27,0,3676501,3,Virtual core keyboard
+7,3,0,0,0,45,0,3676581,8,AT Translated Set 2 keyboard
+6,3,0,0,0,45,0,3676581,3,Virtual core keyboard
+7,2,0,0,0,65,0,3676605,8,AT Translated Set 2 keyboard
+6,2,0,0,0,65,0,3676605,3,Virtual core keyboard
+7,3,0,0,0,65,0,3676709,8,AT Translated Set 2 keyboard
+6,3,0,0,0,65,0,3676709,3,Virtual core keyboard
+7,2,0,0,0,62,0,3677541,8,AT Translated Set 2 keyboard
+6,2,0,0,0,62,0,3677541,3,Virtual core keyboard
+7,2,0,0,0,26,0,3677661,8,AT Translated Set 2 keyboard
+6,2,0,0,0,26,0,3677661,3,Virtual core keyboard
+7,3,0,0,0,26,0,3677741,8,AT Translated Set 2 keyboard
+6,3,0,0,0,26,0,3677741,3,Virtual core keyboard
+7,3,0,0,0,62,0,3677773,8,AT Translated Set 2 keyboard
+6,3,0,0,0,62,0,3677773,3,Virtual core keyboard
+7,2,0,0,0,55,0,3677869,8,AT Translated Set 2 keyboard
+6,2,0,0,0,55,0,3677869,3,Virtual core keyboard
+7,3,0,0,0,55,0,3677973,8,AT Translated Set 2 keyboard
+6,3,0,0,0,55,0,3677973,3,Virtual core keyboard
+7,2,0,0,0,26,0,3678069,8,AT Translated Set 2 keyboard
+6,2,0,0,0,26,0,3678069,3,Virtual core keyboard
+7,3,0,0,0,26,0,3678149,8,AT Translated Set 2 keyboard
+6,3,0,0,0,26,0,3678149,3,Virtual core keyboard
+7,2,0,0,0,57,0,3678165,8,AT Translated Set 2 keyboard
+6,2,0,0,0,57,0,3678165,3,Virtual core keyboard
+7,3,0,0,0,57,0,3678253,8,AT Translated Set 2 keyboard
+6,3,0,0,0,57,0,3678253,3,Virtual core keyboard
+7,2,0,0,0,28,0,3678309,8,AT Translated Set 2 keyboard
+6,2,0,0,0,28,0,3678309,3,Virtual core keyboard
+7,3,0,0,0,28,0,3678389,8,AT Translated Set 2 keyboard
+6,3,0,0,0,28,0,3678389,3,Virtual core keyboard
+7,2,0,0,0,65,0,3678461,8,AT Translated Set 2 keyboard
+6,2,0,0,0,65,0,3678461,3,Virtual core keyboard
+7,3,0,0,0,65,0,3678541,8,AT Translated Set 2 keyboard
+6,3,0,0,0,65,0,3678541,3,Virtual core keyboard
+7,2,0,0,0,62,0,3678629,8,AT Translated Set 2 keyboard
+6,2,0,0,0,62,0,3678629,3,Virtual core keyboard
+7,2,0,0,0,28,0,3678733,8,AT Translated Set 2 keyboard
+6,2,0,0,0,28,0,3678733,3,Virtual core keyboard
+7,3,0,0,0,62,0,3678813,8,AT Translated Set 2 keyboard
+6,3,0,0,0,62,0,3678813,3,Virtual core keyboard
+7,3,0,0,0,28,0,3678877,8,AT Translated Set 2 keyboard
+6,3,0,0,0,28,0,3678877,3,Virtual core keyboard
+7,2,0,0,0,26,0,3678901,8,AT Translated Set 2 keyboard
+6,2,0,0,0,26,0,3678901,3,Virtual core keyboard
+7,2,0,0,0,39,0,3678997,8,AT Translated Set 2 keyboard
+6,2,0,0,0,39,0,3678997,3,Virtual core keyboard
+7,3,0,0,0,26,0,3679061,8,AT Translated Set 2 keyboard
+6,3,0,0,0,26,0,3679061,3,Virtual core keyboard
+7,3,0,0,0,39,0,3679085,8,AT Translated Set 2 keyboard
+6,3,0,0,0,39,0,3679085,3,Virtual core keyboard
+7,2,0,0,0,28,0,3679093,8,AT Translated Set 2 keyboard
+6,2,0,0,0,28,0,3679093,3,Virtual core keyboard
+7,3,0,0,0,28,0,3679245,8,AT Translated Set 2 keyboard
+6,3,0,0,0,28,0,3679245,3,Virtual core keyboard
+7,2,0,0,0,62,0,3679413,8,AT Translated Set 2 keyboard
+6,2,0,0,0,62,0,3679413,3,Virtual core keyboard
+7,2,0,0,0,10,0,3679469,8,AT Translated Set 2 keyboard
+6,2,0,0,0,10,0,3679469,3,Virtual core keyboard
+7,3,0,0,0,10,0,3679541,8,AT Translated Set 2 keyboard
+6,3,0,0,0,10,0,3679541,3,Virtual core keyboard
+7,2,0,0,0,10,0,3679621,8,AT Translated Set 2 keyboard
+6,2,0,0,0,10,0,3679621,3,Virtual core keyboard
+7,3,0,0,0,10,0,3679693,8,AT Translated Set 2 keyboard
+6,3,0,0,0,10,0,3679693,3,Virtual core keyboard
+7,2,0,0,0,10,0,3679765,8,AT Translated Set 2 keyboard
+6,2,0,0,0,10,0,3679765,3,Virtual core keyboard
+7,3,0,0,0,10,0,3679869,8,AT Translated Set 2 keyboard
+6,3,0,0,0,10,0,3679869,3,Virtual core keyboard
+7,3,0,0,0,62,0,3679957,8,AT Translated Set 2 keyboard
+6,3,0,0,0,62,0,3679957,3,Virtual core keyboard
+7,2,0,0,0,36,0,3680541,8,AT Translated Set 2 keyboard
+6,2,0,0,0,36,0,3680541,3,Virtual core keyboard
+7,3,0,0,0,36,0,3680645,8,AT Translated Set 2 keyboard
+6,3,0,0,0,36,0,3680645,3,Virtual core keyboard
+7,2,0,0,0,36,0,3681061,8,AT Translated Set 2 keyboard
+6,2,0,0,0,36,0,3681061,3,Virtual core keyboard
+7,3,0,0,0,36,0,3681133,8,AT Translated Set 2 keyboard
+6,3,0,0,0,36,0,3681133,3,Virtual core keyboard
+7,2,0,0,0,36,0,3681221,8,AT Translated Set 2 keyboard
+6,2,0,0,0,36,0,3681221,3,Virtual core keyboard
+7,3,0,0,0,36,0,3681285,8,AT Translated Set 2 keyboard
+6,3,0,0,0,36,0,3681285,3,Virtual core keyboard
+7,2,0,0,0,36,0,3681389,8,AT Translated Set 2 keyboard
+6,2,0,0,0,36,0,3681389,3,Virtual core keyboard
+7,3,0,0,0,36,0,3681461,8,AT Translated Set 2 keyboard
+6,3,0,0,0,36,0,3681461,3,Virtual core keyboard
+7,2,0,0,0,46,0,3682573,8,AT Translated Set 2 keyboard
+6,2,0,0,0,46,0,3682573,3,Virtual core keyboard
+7,2,0,0,0,39,0,3682637,8,AT Translated Set 2 keyboard
+6,2,0,0,0,39,0,3682637,3,Virtual core keyboard
+7,3,0,0,0,46,0,3682653,8,AT Translated Set 2 keyboard
+6,3,0,0,0,46,0,3682653,3,Virtual core keyboard
+7,3,0,0,0,39,0,3682733,8,AT Translated Set 2 keyboard
+6,3,0,0,0,39,0,3682733,3,Virtual core keyboard
+7,2,0,0,0,65,0,3682765,8,AT Translated Set 2 keyboard
+6,2,0,0,0,65,0,3682765,3,Virtual core keyboard
+7,2,0,0,0,20,0,3682877,8,AT Translated Set 2 keyboard
+6,2,0,0,0,20,0,3682877,3,Virtual core keyboard
+7,3,0,0,0,65,0,3682901,8,AT Translated Set 2 keyboard
+6,3,0,0,0,65,0,3682901,3,Virtual core keyboard
+7,3,0,0,0,20,0,3682941,8,AT Translated Set 2 keyboard
+6,3,0,0,0,20,0,3682941,3,Virtual core keyboard
+7,2,0,0,0,38,0,3682957,8,AT Translated Set 2 keyboard
+6,2,0,0,0,38,0,3682957,3,Virtual core keyboard
+7,3,0,0,0,38,0,3683045,8,AT Translated Set 2 keyboard
+6,3,0,0,0,38,0,3683045,3,Virtual core keyboard
+7,2,0,0,0,46,0,3683053,8,AT Translated Set 2 keyboard
+6,2,0,0,0,46,0,3683053,3,Virtual core keyboard
+7,3,0,0,0,46,0,3683157,8,AT Translated Set 2 keyboard
+6,3,0,0,0,46,0,3683157,3,Virtual core keyboard
+7,2,0,0,0,36,0,3683525,8,AT Translated Set 2 keyboard
+6,2,0,0,0,36,0,3683525,3,Virtual core keyboard
+7,3,0,0,0,36,0,3683597,8,AT Translated Set 2 keyboard
+6,3,0,0,0,36,0,3683597,3,Virtual core keyboard
+7,2,0,0,0,54,0,3683877,8,AT Translated Set 2 keyboard
+6,2,0,0,0,54,0,3683877,3,Virtual core keyboard
+7,2,0,0,0,40,0,3683957,8,AT Translated Set 2 keyboard
+6,2,0,0,0,40,0,3683957,3,Virtual core keyboard
+7,3,0,0,0,54,0,3684021,8,AT Translated Set 2 keyboard
+6,3,0,0,0,54,0,3684021,3,Virtual core keyboard
+7,3,0,0,0,40,0,3684045,8,AT Translated Set 2 keyboard
+6,3,0,0,0,40,0,3684045,3,Virtual core keyboard
+7,2,0,0,0,65,0,3684053,8,AT Translated Set 2 keyboard
+6,2,0,0,0,65,0,3684053,3,Virtual core keyboard
+7,3,0,0,0,65,0,3684133,8,AT Translated Set 2 keyboard
+6,3,0,0,0,65,0,3684133,3,Virtual core keyboard
+7,2,0,0,0,60,0,3685013,8,AT Translated Set 2 keyboard
+6,2,0,0,0,60,0,3685013,3,Virtual core keyboard
+7,3,0,0,0,60,0,3685109,8,AT Translated Set 2 keyboard
+6,3,0,0,0,60,0,3685109,3,Virtual core keyboard
+7,2,0,0,0,61,0,3685173,8,AT Translated Set 2 keyboard
+6,2,0,0,0,61,0,3685173,3,Virtual core keyboard
+7,3,0,0,0,61,0,3685245,8,AT Translated Set 2 keyboard
+6,3,0,0,0,61,0,3685245,3,Virtual core keyboard
+7,2,0,0,0,46,0,3685485,8,AT Translated Set 2 keyboard
+6,2,0,0,0,46,0,3685485,3,Virtual core keyboard
+7,3,0,0,0,46,0,3685565,8,AT Translated Set 2 keyboard
+6,3,0,0,0,46,0,3685565,3,Virtual core keyboard
+7,2,0,0,0,58,0,3685669,8,AT Translated Set 2 keyboard
+6,2,0,0,0,58,0,3685669,3,Virtual core keyboard
+7,3,0,0,0,58,0,3685749,8,AT Translated Set 2 keyboard
+6,3,0,0,0,58,0,3685749,3,Virtual core keyboard
+7,2,0,0,0,23,0,3685805,8,AT Translated Set 2 keyboard
+6,2,0,0,0,23,0,3685805,3,Virtual core keyboard
+7,3,0,0,0,23,0,3685885,8,AT Translated Set 2 keyboard
+6,3,0,0,0,23,0,3685885,3,Virtual core keyboard
+7,2,0,0,0,36,0,3686837,8,AT Translated Set 2 keyboard
+6,2,0,0,0,36,0,3686837,3,Virtual core keyboard
+7,3,0,0,0,36,0,3686909,8,AT Translated Set 2 keyboard
+6,3,0,0,0,36,0,3686909,3,Virtual core keyboard
+7,2,0,0,0,58,0,3687349,8,AT Translated Set 2 keyboard
+6,2,0,0,0,58,0,3687349,3,Virtual core keyboard
+7,3,0,0,0,58,0,3687413,8,AT Translated Set 2 keyboard
+6,3,0,0,0,58,0,3687413,3,Virtual core keyboard
+7,2,0,0,0,38,0,3687469,8,AT Translated Set 2 keyboard
+6,2,0,0,0,38,0,3687469,3,Virtual core keyboard
+7,2,0,0,0,45,0,3687509,8,AT Translated Set 2 keyboard
+6,2,0,0,0,45,0,3687509,3,Virtual core keyboard
+7,3,0,0,0,38,0,3687541,8,AT Translated Set 2 keyboard
+6,3,0,0,0,38,0,3687541,3,Virtual core keyboard
+7,3,0,0,0,45,0,3687597,8,AT Translated Set 2 keyboard
+6,3,0,0,0,45,0,3687597,3,Virtual core keyboard
+7,2,0,0,0,26,0,3687661,8,AT Translated Set 2 keyboard
+6,2,0,0,0,26,0,3687661,3,Virtual core keyboard
+7,2,0,0,0,65,0,3687733,8,AT Translated Set 2 keyboard
+6,2,0,0,0,65,0,3687733,3,Virtual core keyboard
+7,3,0,0,0,26,0,3687765,8,AT Translated Set 2 keyboard
+6,3,0,0,0,26,0,3687765,3,Virtual core keyboard
+7,3,0,0,0,65,0,3687829,8,AT Translated Set 2 keyboard
+6,3,0,0,0,65,0,3687829,3,Virtual core keyboard
+7,2,0,0,0,27,0,3687925,8,AT Translated Set 2 keyboard
+6,2,0,0,0,27,0,3687925,3,Virtual core keyboard
+7,2,0,0,0,26,0,3687973,8,AT Translated Set 2 keyboard
+6,2,0,0,0,26,0,3687973,3,Virtual core keyboard
+7,3,0,0,0,27,0,3688021,8,AT Translated Set 2 keyboard
+6,3,0,0,0,27,0,3688021,3,Virtual core keyboard
+7,3,0,0,0,26,0,3688045,8,AT Translated Set 2 keyboard
+6,3,0,0,0,26,0,3688045,3,Virtual core keyboard
+7,2,0,0,0,39,0,3688237,8,AT Translated Set 2 keyboard
+6,2,0,0,0,39,0,3688237,3,Virtual core keyboard
+7,3,0,0,0,39,0,3688333,8,AT Translated Set 2 keyboard
+6,3,0,0,0,39,0,3688333,3,Virtual core keyboard
+7,2,0,0,0,30,0,3688381,8,AT Translated Set 2 keyboard
+6,2,0,0,0,30,0,3688381,3,Virtual core keyboard
+7,3,0,0,0,30,0,3688453,8,AT Translated Set 2 keyboard
+6,3,0,0,0,30,0,3688453,3,Virtual core keyboard
+7,2,0,0,0,46,0,3688533,8,AT Translated Set 2 keyboard
+6,2,0,0,0,46,0,3688533,3,Virtual core keyboard
+7,3,0,0,0,46,0,3688613,8,AT Translated Set 2 keyboard
+6,3,0,0,0,46,0,3688613,3,Virtual core keyboard
+7,2,0,0,0,28,0,3688677,8,AT Translated Set 2 keyboard
+6,2,0,0,0,28,0,3688677,3,Virtual core keyboard
+7,3,0,0,0,28,0,3688765,8,AT Translated Set 2 keyboard
+6,3,0,0,0,28,0,3688765,3,Virtual core keyboard
+7,2,0,0,0,39,0,3688837,8,AT Translated Set 2 keyboard
+6,2,0,0,0,39,0,3688837,3,Virtual core keyboard
+7,3,0,0,0,39,0,3688917,8,AT Translated Set 2 keyboard
+6,3,0,0,0,39,0,3688917,3,Virtual core keyboard
+7,2,0,0,0,36,0,3689821,8,AT Translated Set 2 keyboard
+6,2,0,0,0,36,0,3689821,3,Virtual core keyboard
+7,3,0,0,0,36,0,3689941,8,AT Translated Set 2 keyboard
+6,3,0,0,0,36,0,3689941,3,Virtual core keyboard
+7,2,0,0,0,36,0,3699854,8,AT Translated Set 2 keyboard
+6,2,0,0,0,36,0,3699854,3,Virtual core keyboard
+7,3,0,0,0,36,0,3699933,8,AT Translated Set 2 keyboard
+6,3,0,0,0,36,0,3699933,3,Virtual core keyboard
+7,2,0,0,0,36,0,3701045,8,AT Translated Set 2 keyboard
+6,2,0,0,0,36,0,3701045,3,Virtual core keyboard
+7,3,0,0,0,36,0,3701125,8,AT Translated Set 2 keyboard
+6,3,0,0,0,36,0,3701125,3,Virtual core keyboard
+7,2,0,0,0,36,0,3734270,8,AT Translated Set 2 keyboard
+6,2,0,0,0,36,0,3734270,3,Virtual core keyboard
+7,3,0,0,0,36,0,3734365,8,AT Translated Set 2 keyboard
+6,3,0,0,0,36,0,3734365,3,Virtual core keyboard
+7,6,70,672,0,0,0,3831592,9,'ImPS/2 BYD TouchPad'
+7,6,69,672,0,0,0,3831602,9,'ImPS/2 BYD TouchPad'
+7,6,65,668,0,0,0,3831614,9,'ImPS/2 BYD TouchPad'
+7,6,63,665,0,0,0,3831624,9,'ImPS/2 BYD TouchPad'
+7,6,63,664,0,0,0,3831632,9,'ImPS/2 BYD TouchPad'
+7,6,64,659,0,0,0,3831640,9,'ImPS/2 BYD TouchPad'
+7,6,70,645,0,0,0,3831648,9,'ImPS/2 BYD TouchPad'
+7,6,81,620,0,0,0,3831658,9,'ImPS/2 BYD TouchPad'
+7,6,96,587,0,0,0,3831666,9,'ImPS/2 BYD TouchPad'
+7,6,112,560,0,0,0,3831674,9,'ImPS/2 BYD TouchPad'
+7,6,126,540,0,0,0,3831682,9,'ImPS/2 BYD TouchPad'
+7,6,137,526,0,0,0,3831690,9,'ImPS/2 BYD TouchPad'
+7,6,148,514,0,0,0,3831700,9,'ImPS/2 BYD TouchPad'
+7,6,153,508,0,0,0,3831710,9,'ImPS/2 BYD TouchPad'
+7,6,154,507,0,0,0,3831746,9,'ImPS/2 BYD TouchPad'
+7,6,154,506,0,0,0,3831754,9,'ImPS/2 BYD TouchPad'
+7,6,157,505,0,0,0,3831762,9,'ImPS/2 BYD TouchPad'
+7,6,160,501,0,0,0,3831770,9,'ImPS/2 BYD TouchPad'
+7,6,167,493,0,0,0,3831780,9,'ImPS/2 BYD TouchPad'
+7,6,177,482,0,0,0,3831788,9,'ImPS/2 BYD TouchPad'
+7,6,186,472,0,0,0,3831796,9,'ImPS/2 BYD TouchPad'
+7,6,197,454,0,0,0,3831804,9,'ImPS/2 BYD TouchPad'
+7,6,207,444,0,0,0,3831812,9,'ImPS/2 BYD TouchPad'
+7,6,217,430,0,0,0,3831822,9,'ImPS/2 BYD TouchPad'
+7,6,229,413,0,0,0,3831830,9,'ImPS/2 BYD TouchPad'
+7,6,237,403,0,0,0,3831837,9,'ImPS/2 BYD TouchPad'
+7,6,248,392,0,0,0,3831845,9,'ImPS/2 BYD TouchPad'
+7,6,260,378,0,0,0,3831854,9,'ImPS/2 BYD TouchPad'
+7,6,271,364,0,0,0,3831864,9,'ImPS/2 BYD TouchPad'
+7,6,282,351,0,0,0,3831872,9,'ImPS/2 BYD TouchPad'
+7,6,287,341,0,0,0,3831880,9,'ImPS/2 BYD TouchPad'
+7,6,292,332,0,0,0,3831888,9,'ImPS/2 BYD TouchPad'
+7,6,292,331,0,0,0,3831896,9,'ImPS/2 BYD TouchPad'
+7,6,293,329,0,0,0,3831930,9,'ImPS/2 BYD TouchPad'
+7,6,294,329,0,0,0,3831940,9,'ImPS/2 BYD TouchPad'
+7,6,296,326,0,0,0,3831950,9,'ImPS/2 BYD TouchPad'
+7,6,299,323,0,0,0,3831958,9,'ImPS/2 BYD TouchPad'
+7,6,301,319,0,0,0,3831966,9,'ImPS/2 BYD TouchPad'
+7,6,303,315,0,0,0,3831974,9,'ImPS/2 BYD TouchPad'
+7,6,305,312,0,0,0,3831982,9,'ImPS/2 BYD TouchPad'
+7,6,306,310,0,0,0,3831992,9,'ImPS/2 BYD TouchPad'
+7,4,0,0,1,0,0,3832088,9,ImPS/2 BYD TouchPad
+6,4,0,0,1,0,0,3832088,2,Virtual core pointer
+7,5,0,0,1,0,0,3832223,9,ImPS/2 BYD TouchPad
+6,5,0,0,1,0,0,3832223,2,Virtual core pointer
+7,6,307,307,0,0,0,3832262,9,'ImPS/2 BYD TouchPad'
+7,6,307,308,0,0,0,3832272,9,'ImPS/2 BYD TouchPad'
+7,6,307,309,0,0,0,3832280,9,'ImPS/2 BYD TouchPad'
+7,6,307,310,0,0,0,3832298,9,'ImPS/2 BYD TouchPad'
+7,6,307,311,0,0,0,3832306,9,'ImPS/2 BYD TouchPad'
+7,6,308,312,0,0,0,3832332,9,'ImPS/2 BYD TouchPad'
+7,2,0,0,0,36,0,3832701,8,AT Translated Set 2 keyboard
+6,2,0,0,0,36,0,3832701,3,Virtual core keyboard
+7,6,308,313,0,0,0,3832762,9,'ImPS/2 BYD TouchPad'
+7,6,309,313,0,0,0,3832774,9,'ImPS/2 BYD TouchPad'
+7,3,0,0,0,36,0,3832781,8,AT Translated Set 2 keyboard
+6,3,0,0,0,36,0,3832781,3,Virtual core keyboard
+7,6,310,313,0,0,0,3832810,9,'ImPS/2 BYD TouchPad'
+7,6,310,312,0,0,0,3832820,9,'ImPS/2 BYD TouchPad'
+7,6,311,312,0,0,0,3832838,9,'ImPS/2 BYD TouchPad'
+7,2,0,0,0,36,0,3833237,8,AT Translated Set 2 keyboard
+6,2,0,0,0,36,0,3833238,3,Virtual core keyboard
+7,3,0,0,0,36,0,3833357,8,AT Translated Set 2 keyboard
+6,3,0,0,0,36,0,3833357,3,Virtual core keyboard
+7,6,312,312,0,0,0,3833460,9,'ImPS/2 BYD TouchPad'
+7,6,312,313,0,0,0,3833470,9,'ImPS/2 BYD TouchPad'
+7,6,313,313,0,0,0,3833480,9,'ImPS/2 BYD TouchPad'
+7,6,313,314,0,0,0,3833490,9,'ImPS/2 BYD TouchPad'
+7,6,314,314,0,0,0,3833502,9,'ImPS/2 BYD TouchPad'
+7,6,315,314,0,0,0,3833526,9,'ImPS/2 BYD TouchPad'
+7,6,316,314,0,0,0,3833538,9,'ImPS/2 BYD TouchPad'
+7,6,316,315,0,0,0,3833550,9,'ImPS/2 BYD TouchPad'
+7,6,317,315,0,0,0,3833560,9,'ImPS/2 BYD TouchPad'
+7,6,317,317,0,0,0,3833574,9,'ImPS/2 BYD TouchPad'
+7,6,317,318,0,0,0,3833588,9,'ImPS/2 BYD TouchPad'
+7,6,317,319,0,0,0,3833596,9,'ImPS/2 BYD TouchPad'
+7,6,318,319,0,0,0,3833620,9,'ImPS/2 BYD TouchPad'
+7,6,318,320,0,0,0,3833730,9,'ImPS/2 BYD TouchPad'
+7,6,319,321,0,0,0,3833740,9,'ImPS/2 BYD TouchPad'
+7,2,0,0,0,36,0,3833997,8,AT Translated Set 2 keyboard
+6,2,0,0,0,36,0,3833997,3,Virtual core keyboard
+7,3,0,0,0,36,0,3834085,8,AT Translated Set 2 keyboard
+6,3,0,0,0,36,0,3834085,3,Virtual core keyboard
+7,2,0,0,0,36,0,3834549,8,AT Translated Set 2 keyboard
+6,2,0,0,0,36,0,3834549,3,Virtual core keyboard
+7,3,0,0,0,36,0,3834621,8,AT Translated Set 2 keyboard
+6,3,0,0,0,36,0,3834621,3,Virtual core keyboard
+7,2,0,0,0,36,0,3835125,8,AT Translated Set 2 keyboard
+6,2,0,0,0,36,0,3835125,3,Virtual core keyboard
+7,3,0,0,0,36,0,3835204,8,AT Translated Set 2 keyboard
+6,3,0,0,0,36,0,3835204,3,Virtual core keyboard
+7,6,319,322,0,0,0,3885439,9,'ImPS/2 BYD TouchPad'
+7,6,320,322,0,0,0,3885447,9,'ImPS/2 BYD TouchPad'
+7,6,321,316,0,0,0,3885457,9,'ImPS/2 BYD TouchPad'
+7,6,327,308,0,0,0,3885465,9,'ImPS/2 BYD TouchPad'
+7,6,327,303,0,0,0,3885475,9,'ImPS/2 BYD TouchPad'
+7,6,328,301,0,0,0,3885491,9,'ImPS/2 BYD TouchPad'
+7,6,328,300,0,0,0,3885501,9,'ImPS/2 BYD TouchPad'
+7,6,329,299,0,0,0,3885511,9,'ImPS/2 BYD TouchPad'
+7,6,329,298,0,0,0,3885537,9,'ImPS/2 BYD TouchPad'
+7,6,329,297,0,0,0,3885547,9,'ImPS/2 BYD TouchPad'
+7,6,329,296,0,0,0,3885557,9,'ImPS/2 BYD TouchPad'
+7,6,329,295,0,0,0,3885565,9,'ImPS/2 BYD TouchPad'
+7,6,329,294,0,0,0,3885573,9,'ImPS/2 BYD TouchPad'
+7,6,330,293,0,0,0,3885585,9,'ImPS/2 BYD TouchPad'
+7,6,331,292,0,0,0,3885593,9,'ImPS/2 BYD TouchPad'
+7,6,332,290,0,0,0,3885601,9,'ImPS/2 BYD TouchPad'
+7,6,332,288,0,0,0,3885609,9,'ImPS/2 BYD TouchPad'
+7,6,333,285,0,0,0,3885617,9,'ImPS/2 BYD TouchPad'
+7,6,333,283,0,0,0,3885627,9,'ImPS/2 BYD TouchPad'
+7,6,333,279,0,0,0,3885635,9,'ImPS/2 BYD TouchPad'
+7,6,331,275,0,0,0,3885643,9,'ImPS/2 BYD TouchPad'
+7,6,330,272,0,0,0,3885651,9,'ImPS/2 BYD TouchPad'
+7,6,330,266,0,0,0,3885659,9,'ImPS/2 BYD TouchPad'
+7,6,327,257,0,0,0,3885669,9,'ImPS/2 BYD TouchPad'
+7,6,323,247,0,0,0,3885677,9,'ImPS/2 BYD TouchPad'
+7,6,321,239,0,0,0,3885685,9,'ImPS/2 BYD TouchPad'
+7,6,317,231,0,0,0,3885693,9,'ImPS/2 BYD TouchPad'
+7,6,316,227,0,0,0,3885704,9,'ImPS/2 BYD TouchPad'
+7,6,315,224,0,0,0,3885715,9,'ImPS/2 BYD TouchPad'
+7,6,314,222,0,0,0,3885745,9,'ImPS/2 BYD TouchPad'
+7,6,314,221,0,0,0,3885755,9,'ImPS/2 BYD TouchPad'
+7,6,313,220,0,0,0,3885765,9,'ImPS/2 BYD TouchPad'
+7,6,313,219,0,0,0,3885781,9,'ImPS/2 BYD TouchPad'
+7,6,313,218,0,0,0,3885791,9,'ImPS/2 BYD TouchPad'
+7,6,312,218,0,0,0,3886117,9,'ImPS/2 BYD TouchPad'
+7,6,312,219,0,0,0,3886127,9,'ImPS/2 BYD TouchPad'
+7,6,312,220,0,0,0,3886137,9,'ImPS/2 BYD TouchPad'
+7,6,312,221,0,0,0,3886147,9,'ImPS/2 BYD TouchPad'
+7,6,312,222,0,0,0,3886157,9,'ImPS/2 BYD TouchPad'
+7,2,0,0,0,36,0,3953134,8,AT Translated Set 2 keyboard
+6,2,0,0,0,36,0,3953134,3,Virtual core keyboard
+7,3,0,0,0,36,0,3953261,8,AT Translated Set 2 keyboard
+6,3,0,0,0,36,0,3953261,3,Virtual core keyboard
+7,2,0,0,0,36,0,3954117,8,AT Translated Set 2 keyboard
+6,2,0,0,0,36,0,3954117,3,Virtual core keyboard
+7,3,0,0,0,36,0,3954221,8,AT Translated Set 2 keyboard
+6,3,0,0,0,36,0,3954221,3,Virtual core keyboard
+7,2,0,0,0,36,0,3955189,8,AT Translated Set 2 keyboard
+6,2,0,0,0,36,0,3955189,3,Virtual core keyboard
+7,3,0,0,0,36,0,3955269,8,AT Translated Set 2 keyboard
+6,3,0,0,0,36,0,3955269,3,Virtual core keyboard
+7,2,0,0,0,57,0,3956789,8,AT Translated Set 2 keyboard
+6,2,0,0,0,57,0,3956789,3,Virtual core keyboard
+7,3,0,0,0,57,0,3956853,8,AT Translated Set 2 keyboard
+6,3,0,0,0,57,0,3956853,3,Virtual core keyboard
+7,2,0,0,0,32,0,3957029,8,AT Translated Set 2 keyboard
+6,2,0,0,0,32,0,3957029,3,Virtual core keyboard
+7,3,0,0,0,32,0,3957093,8,AT Translated Set 2 keyboard
+6,3,0,0,0,32,0,3957093,3,Virtual core keyboard
+7,2,0,0,0,36,0,3957709,8,AT Translated Set 2 keyboard
+6,2,0,0,0,36,0,3957709,3,Virtual core keyboard
+7,3,0,0,0,36,0,3957805,8,AT Translated Set 2 keyboard
+6,3,0,0,0,36,0,3957805,3,Virtual core keyboard
+7,2,0,0,0,36,0,3958852,8,AT Translated Set 2 keyboard
+6,2,0,0,0,36,0,3958853,3,Virtual core keyboard
+7,3,0,0,0,36,0,3958948,8,AT Translated Set 2 keyboard
+6,3,0,0,0,36,0,3958948,3,Virtual core keyboard
+7,2,0,0,0,36,0,3959164,8,AT Translated Set 2 keyboard
+6,2,0,0,0,36,0,3959164,3,Virtual core keyboard
+7,3,0,0,0,36,0,3959268,8,AT Translated Set 2 keyboard
+6,3,0,0,0,36,0,3959268,3,Virtual core keyboard
+7,2,0,0,0,36,0,3959484,8,AT Translated Set 2 keyboard
+6,2,0,0,0,36,0,3959484,3,Virtual core keyboard
+7,3,0,0,0,36,0,3959572,8,AT Translated Set 2 keyboard
+6,3,0,0,0,36,0,3959572,3,Virtual core keyboard
+7,2,0,0,0,36,0,3959836,8,AT Translated Set 2 keyboard
+6,2,0,0,0,36,0,3959836,3,Virtual core keyboard
+7,3,0,0,0,36,0,3959932,8,AT Translated Set 2 keyboard
+6,3,0,0,0,36,0,3959932,3,Virtual core keyboard
+7,6,312,223,0,0,0,3961751,9,'ImPS/2 BYD TouchPad'
+7,6,312,224,0,0,0,3961761,9,'ImPS/2 BYD TouchPad'
+7,6,312,228,0,0,0,3961769,9,'ImPS/2 BYD TouchPad'
+7,6,311,233,0,0,0,3961777,9,'ImPS/2 BYD TouchPad'
+7,6,309,237,0,0,0,3961787,9,'ImPS/2 BYD TouchPad'
+7,6,309,242,0,0,0,3961795,9,'ImPS/2 BYD TouchPad'
+7,6,308,248,0,0,0,3961803,9,'ImPS/2 BYD TouchPad'
+7,6,308,254,0,0,0,3961813,9,'ImPS/2 BYD TouchPad'
+7,6,306,262,0,0,0,3961821,9,'ImPS/2 BYD TouchPad'
+7,6,306,269,0,0,0,3961831,9,'ImPS/2 BYD TouchPad'
+7,6,304,279,0,0,0,3961839,9,'ImPS/2 BYD TouchPad'
+7,6,304,287,0,0,0,3961847,9,'ImPS/2 BYD TouchPad'
+7,6,302,294,0,0,0,3961855,9,'ImPS/2 BYD TouchPad'
+7,6,301,302,0,0,0,3961863,9,'ImPS/2 BYD TouchPad'
+7,6,299,310,0,0,0,3961873,9,'ImPS/2 BYD TouchPad'
+7,6,297,319,0,0,0,3961881,9,'ImPS/2 BYD TouchPad'
+7,6,297,326,0,0,0,3961891,9,'ImPS/2 BYD TouchPad'
+7,6,297,335,0,0,0,3961898,9,'ImPS/2 BYD TouchPad'
+7,6,296,342,0,0,0,3961907,9,'ImPS/2 BYD TouchPad'
+7,6,296,349,0,0,0,3961917,9,'ImPS/2 BYD TouchPad'
+7,6,296,358,0,0,0,3961927,9,'ImPS/2 BYD TouchPad'
+7,6,297,368,0,0,0,3961935,9,'ImPS/2 BYD TouchPad'
+7,6,297,377,0,0,0,3961943,9,'ImPS/2 BYD TouchPad'
+7,6,297,387,0,0,0,3961951,9,'ImPS/2 BYD TouchPad'
+7,6,299,397,0,0,0,3961960,9,'ImPS/2 BYD TouchPad'
+7,6,299,406,0,0,0,3961969,9,'ImPS/2 BYD TouchPad'
+7,6,301,421,0,0,0,3961977,9,'ImPS/2 BYD TouchPad'
+7,6,301,434,0,0,0,3961985,9,'ImPS/2 BYD TouchPad'
+7,6,304,448,0,0,0,3961993,9,'ImPS/2 BYD TouchPad'
+7,6,306,461,0,0,0,3962003,9,'ImPS/2 BYD TouchPad'
+7,6,308,476,0,0,0,3962003,9,'ImPS/2 BYD TouchPad'
+7,6,308,479,0,0,0,3962011,9,'ImPS/2 BYD TouchPad'
+7,6,308,490,0,0,0,3962019,9,'ImPS/2 BYD TouchPad'
+7,6,311,502,0,0,0,3962027,9,'ImPS/2 BYD TouchPad'
+7,6,311,510,0,0,0,3962035,9,'ImPS/2 BYD TouchPad'
+7,6,313,520,0,0,0,3962044,9,'ImPS/2 BYD TouchPad'
+7,6,313,527,0,0,0,3962053,9,'ImPS/2 BYD TouchPad'
+7,6,313,537,0,0,0,3962061,9,'ImPS/2 BYD TouchPad'
+7,6,313,545,0,0,0,3962069,9,'ImPS/2 BYD TouchPad'
+7,6,313,553,0,0,0,3962077,9,'ImPS/2 BYD TouchPad'
+7,6,313,561,0,0,0,3962086,9,'ImPS/2 BYD TouchPad'
+7,6,313,570,0,0,0,3962095,9,'ImPS/2 BYD TouchPad'
+7,6,313,581,0,0,0,3962102,9,'ImPS/2 BYD TouchPad'
+7,6,311,588,0,0,0,3962111,9,'ImPS/2 BYD TouchPad'
+7,6,311,595,0,0,0,3962119,9,'ImPS/2 BYD TouchPad'
+7,6,309,601,0,0,0,3962127,9,'ImPS/2 BYD TouchPad'
+7,6,309,607,0,0,0,3962138,9,'ImPS/2 BYD TouchPad'
+7,6,309,610,0,0,0,3962147,9,'ImPS/2 BYD TouchPad'
+7,6,308,614,0,0,0,3962155,9,'ImPS/2 BYD TouchPad'
+7,6,308,616,0,0,0,3962165,9,'ImPS/2 BYD TouchPad'
+7,6,308,619,0,0,0,3962177,9,'ImPS/2 BYD TouchPad'
+7,6,307,622,0,0,0,3962189,9,'ImPS/2 BYD TouchPad'
+7,6,306,625,0,0,0,3962197,9,'ImPS/2 BYD TouchPad'
+7,6,304,628,0,0,0,3962205,9,'ImPS/2 BYD TouchPad'
+7,6,303,630,0,0,0,3962217,9,'ImPS/2 BYD TouchPad'
+7,6,302,634,0,0,0,3962225,9,'ImPS/2 BYD TouchPad'
+7,6,300,638,0,0,0,3962234,9,'ImPS/2 BYD TouchPad'
+7,6,298,641,0,0,0,3962245,9,'ImPS/2 BYD TouchPad'
+7,6,297,646,0,0,0,3962254,9,'ImPS/2 BYD TouchPad'
+7,6,295,649,0,0,0,3962263,9,'ImPS/2 BYD TouchPad'
+7,6,293,652,0,0,0,3962271,9,'ImPS/2 BYD TouchPad'
+7,6,292,654,0,0,0,3962279,9,'ImPS/2 BYD TouchPad'
+7,6,290,658,0,0,0,3962287,9,'ImPS/2 BYD TouchPad'
+7,6,288,661,0,0,0,3962299,9,'ImPS/2 BYD TouchPad'
+7,6,281,672,0,0,0,3962307,9,'ImPS/2 BYD TouchPad'
+7,6,276,679,0,0,0,3962315,9,'ImPS/2 BYD TouchPad'
+7,6,268,687,0,0,0,3962323,9,'ImPS/2 BYD TouchPad'
+7,6,263,694,0,0,0,3962331,9,'ImPS/2 BYD TouchPad'
+7,6,258,702,0,0,0,3962341,9,'ImPS/2 BYD TouchPad'
+7,6,248,712,0,0,0,3962349,9,'ImPS/2 BYD TouchPad'
+7,6,241,718,0,0,0,3962357,9,'ImPS/2 BYD TouchPad'
+7,6,235,726,0,0,0,3962365,9,'ImPS/2 BYD TouchPad'
+7,6,230,734,0,0,0,3962373,9,'ImPS/2 BYD TouchPad'
+7,6,225,741,0,0,0,3962383,9,'ImPS/2 BYD TouchPad'
+7,6,219,750,0,0,0,3962393,9,'ImPS/2 BYD TouchPad'
+7,6,212,758,0,0,0,3962401,9,'ImPS/2 BYD TouchPad'
+7,6,207,766,0,0,0,3962409,9,'ImPS/2 BYD TouchPad'
+7,6,201,773,0,0,0,3962418,9,'ImPS/2 BYD TouchPad'
+7,6,198,778,0,0,0,3962427,9,'ImPS/2 BYD TouchPad'
+7,6,191,786,0,0,0,3962435,9,'ImPS/2 BYD TouchPad'
+7,6,188,790,0,0,0,3962443,9,'ImPS/2 BYD TouchPad'
+7,6,181,797,0,0,0,3962451,9,'ImPS/2 BYD TouchPad'
+7,6,176,804,0,0,0,3962459,9,'ImPS/2 BYD TouchPad'
+7,6,171,809,0,0,0,3962469,9,'ImPS/2 BYD TouchPad'
+7,6,164,817,0,0,0,3962477,9,'ImPS/2 BYD TouchPad'
+7,6,157,824,0,0,0,3962485,9,'ImPS/2 BYD TouchPad'
+7,6,152,829,0,0,0,3962493,9,'ImPS/2 BYD TouchPad'
+7,6,147,834,0,0,0,3962501,9,'ImPS/2 BYD TouchPad'
+7,6,141,841,0,0,0,3962511,9,'ImPS/2 BYD TouchPad'
+7,6,137,846,0,0,0,3962521,9,'ImPS/2 BYD TouchPad'
+7,6,132,852,0,0,0,3962529,9,'ImPS/2 BYD TouchPad'
+7,6,131,857,0,0,0,3962537,9,'ImPS/2 BYD TouchPad'
+7,6,129,859,0,0,0,3962545,9,'ImPS/2 BYD TouchPad'
+7,6,127,861,0,0,0,3962553,9,'ImPS/2 BYD TouchPad'
+7,6,125,862,0,0,0,3962564,9,'ImPS/2 BYD TouchPad'
+7,6,124,864,0,0,0,3962572,9,'ImPS/2 BYD TouchPad'
+7,6,122,866,0,0,0,3962581,9,'ImPS/2 BYD TouchPad'
+7,6,120,868,0,0,0,3962589,9,'ImPS/2 BYD TouchPad'
+7,6,119,869,0,0,0,3962601,9,'ImPS/2 BYD TouchPad'
+7,6,118,870,0,0,0,3962609,9,'ImPS/2 BYD TouchPad'
+7,6,118,871,0,0,0,3962639,9,'ImPS/2 BYD TouchPad'
+7,6,117,871,0,0,0,3962725,9,'ImPS/2 BYD TouchPad'
+7,6,116,871,0,0,0,3962733,9,'ImPS/2 BYD TouchPad'
+7,6,115,872,0,0,0,3962745,9,'ImPS/2 BYD TouchPad'
+7,6,113,872,0,0,0,3962759,9,'ImPS/2 BYD TouchPad'
+7,6,113,873,0,0,0,3962769,9,'ImPS/2 BYD TouchPad'
+7,6,111,873,0,0,0,3962777,9,'ImPS/2 BYD TouchPad'
+7,6,110,874,0,0,0,3962785,9,'ImPS/2 BYD TouchPad'
+7,6,109,874,0,0,0,3962795,9,'ImPS/2 BYD TouchPad'
+7,6,108,874,0,0,0,3962803,9,'ImPS/2 BYD TouchPad'
+7,6,107,875,0,0,0,3962817,9,'ImPS/2 BYD TouchPad'
+7,6,105,875,0,0,0,3962831,9,'ImPS/2 BYD TouchPad'
+7,6,105,876,0,0,0,3962841,9,'ImPS/2 BYD TouchPad'
+7,6,104,876,0,0,0,3962852,9,'ImPS/2 BYD TouchPad'
+7,6,103,876,0,0,0,3962863,9,'ImPS/2 BYD TouchPad'
+7,6,102,876,0,0,0,3962873,9,'ImPS/2 BYD TouchPad'
+7,6,100,877,0,0,0,3962880,9,'ImPS/2 BYD TouchPad'
+7,6,99,878,0,0,0,3962893,9,'ImPS/2 BYD TouchPad'
+7,6,97,879,0,0,0,3962901,9,'ImPS/2 BYD TouchPad'
+7,6,96,879,0,0,0,3962911,9,'ImPS/2 BYD TouchPad'
+7,6,96,880,0,0,0,3963591,9,'ImPS/2 BYD TouchPad'
+7,6,97,880,0,0,0,3963599,9,'ImPS/2 BYD TouchPad'
+7,6,99,880,0,0,0,3963609,9,'ImPS/2 BYD TouchPad'
+7,6,101,881,0,0,0,3963621,9,'ImPS/2 BYD TouchPad'
+7,6,104,882,0,0,0,3963633,9,'ImPS/2 BYD TouchPad'
+7,6,106,882,0,0,0,3963647,9,'ImPS/2 BYD TouchPad'
+7,6,108,882,0,0,0,3963655,9,'ImPS/2 BYD TouchPad'
+7,6,109,882,0,0,0,3963665,9,'ImPS/2 BYD TouchPad'
+7,6,110,882,0,0,0,3963950,9,'ImPS/2 BYD TouchPad'
+7,6,111,882,0,0,0,3963959,9,'ImPS/2 BYD TouchPad'
+7,6,113,882,0,0,0,3963967,9,'ImPS/2 BYD TouchPad'
+7,4,0,0,1,0,0,3964072,9,ImPS/2 BYD TouchPad
+6,4,0,0,1,0,0,3964072,2,Virtual core pointer
+7,5,0,0,1,0,0,3964212,9,ImPS/2 BYD TouchPad
+6,5,0,0,1,0,0,3964212,2,Virtual core pointer
+7,4,0,0,1,0,0,3965321,9,ImPS/2 BYD TouchPad
+6,4,0,0,1,0,0,3965321,2,Virtual core pointer
+7,5,0,0,1,0,0,3965452,9,ImPS/2 BYD TouchPad
+6,5,0,0,1,0,0,3965452,2,Virtual core pointer
+7,6,115,881,0,0,0,3966299,9,'ImPS/2 BYD TouchPad'
+7,6,116,881,0,0,0,3966309,9,'ImPS/2 BYD TouchPad'
+7,6,119,880,0,0,0,3966316,9,'ImPS/2 BYD TouchPad'
+7,6,121,879,0,0,0,3966327,9,'ImPS/2 BYD TouchPad'
+7,6,124,879,0,0,0,3966335,9,'ImPS/2 BYD TouchPad'
+7,6,126,879,0,0,0,3966345,9,'ImPS/2 BYD TouchPad'
+7,6,129,878,0,0,0,3966355,9,'ImPS/2 BYD TouchPad'
+7,6,131,878,0,0,0,3966365,9,'ImPS/2 BYD TouchPad'
+7,6,134,878,0,0,0,3966373,9,'ImPS/2 BYD TouchPad'
+7,6,136,878,0,0,0,3966382,9,'ImPS/2 BYD TouchPad'
+7,6,137,878,0,0,0,3966389,9,'ImPS/2 BYD TouchPad'
+7,6,138,878,0,0,0,3966423,9,'ImPS/2 BYD TouchPad'
+7,6,139,878,0,0,0,3966433,9,'ImPS/2 BYD TouchPad'
+7,6,141,878,0,0,0,3966441,9,'ImPS/2 BYD TouchPad'
+7,6,143,878,0,0,0,3966451,9,'ImPS/2 BYD TouchPad'
+7,6,146,878,0,0,0,3966459,9,'ImPS/2 BYD TouchPad'
+7,6,149,878,0,0,0,3966467,9,'ImPS/2 BYD TouchPad'
+7,6,152,878,0,0,0,3966479,9,'ImPS/2 BYD TouchPad'
+7,6,155,878,0,0,0,3966487,9,'ImPS/2 BYD TouchPad'
+7,6,157,878,0,0,0,3966499,9,'ImPS/2 BYD TouchPad'
+7,6,159,878,0,0,0,3966506,9,'ImPS/2 BYD TouchPad'
+7,6,161,879,0,0,0,3966515,9,'ImPS/2 BYD TouchPad'
+7,6,163,879,0,0,0,3966523,9,'ImPS/2 BYD TouchPad'
+7,6,165,879,0,0,0,3966532,9,'ImPS/2 BYD TouchPad'
+7,6,168,879,0,0,0,3966543,9,'ImPS/2 BYD TouchPad'
+7,6,172,879,0,0,0,3966551,9,'ImPS/2 BYD TouchPad'
+7,6,175,879,0,0,0,3966559,9,'ImPS/2 BYD TouchPad'
+7,6,178,879,0,0,0,3966571,9,'ImPS/2 BYD TouchPad'
+7,6,181,879,0,0,0,3966585,9,'ImPS/2 BYD TouchPad'
+7,6,183,879,0,0,0,3966595,9,'ImPS/2 BYD TouchPad'
+7,6,184,879,0,0,0,3966619,9,'ImPS/2 BYD TouchPad'
+7,6,185,879,0,0,0,3966627,9,'ImPS/2 BYD TouchPad'
+7,6,186,879,0,0,0,3966639,9,'ImPS/2 BYD TouchPad'
+7,6,188,879,0,0,0,3966653,9,'ImPS/2 BYD TouchPad'
+7,6,191,879,0,0,0,3966663,9,'ImPS/2 BYD TouchPad'
+7,6,194,879,0,0,0,3966671,9,'ImPS/2 BYD TouchPad'
+7,6,196,879,0,0,0,3966680,9,'ImPS/2 BYD TouchPad'
+7,6,199,879,0,0,0,3966692,9,'ImPS/2 BYD TouchPad'
+7,6,202,879,0,0,0,3966703,9,'ImPS/2 BYD TouchPad'
+7,6,204,879,0,0,0,3966711,9,'ImPS/2 BYD TouchPad'
+7,6,206,879,0,0,0,3966725,9,'ImPS/2 BYD TouchPad'
+7,6,208,879,0,0,0,3966739,9,'ImPS/2 BYD TouchPad'
+7,6,210,879,0,0,0,3967143,9,'ImPS/2 BYD TouchPad'
+7,6,209,879,0,0,0,3967153,9,'ImPS/2 BYD TouchPad'
+7,6,206,880,0,0,0,3967163,9,'ImPS/2 BYD TouchPad'
+7,6,203,880,0,0,0,3967173,9,'ImPS/2 BYD TouchPad'
+7,6,200,881,0,0,0,3967180,9,'ImPS/2 BYD TouchPad'
+7,6,197,881,0,0,0,3967191,9,'ImPS/2 BYD TouchPad'
+7,6,194,882,0,0,0,3967201,9,'ImPS/2 BYD TouchPad'
+7,6,191,883,0,0,0,3967209,9,'ImPS/2 BYD TouchPad'
+7,6,189,883,0,0,0,3967217,9,'ImPS/2 BYD TouchPad'
+7,6,187,883,0,0,0,3967227,9,'ImPS/2 BYD TouchPad'
+7,6,184,883,0,0,0,3967235,9,'ImPS/2 BYD TouchPad'
+7,6,183,884,0,0,0,3967243,9,'ImPS/2 BYD TouchPad'
+7,6,181,884,0,0,0,3967255,9,'ImPS/2 BYD TouchPad'
+7,6,180,884,0,0,0,3967263,9,'ImPS/2 BYD TouchPad'
+7,6,179,884,0,0,0,3967279,9,'ImPS/2 BYD TouchPad'
+7,6,178,884,0,0,0,3967295,9,'ImPS/2 BYD TouchPad'
+7,6,177,884,0,0,0,3967303,9,'ImPS/2 BYD TouchPad'
+7,6,176,884,0,0,0,3967313,9,'ImPS/2 BYD TouchPad'
+7,6,175,884,0,0,0,3967321,9,'ImPS/2 BYD TouchPad'
+7,6,173,884,0,0,0,3967333,9,'ImPS/2 BYD TouchPad'
+7,6,171,884,0,0,0,3967348,9,'ImPS/2 BYD TouchPad'
+7,6,169,884,0,0,0,3967395,9,'ImPS/2 BYD TouchPad'
+7,6,168,884,0,0,0,3967403,9,'ImPS/2 BYD TouchPad'
+7,6,167,885,0,0,0,3967411,9,'ImPS/2 BYD TouchPad'
+7,6,164,885,0,0,0,3967423,9,'ImPS/2 BYD TouchPad'
+7,6,159,886,0,0,0,3967431,9,'ImPS/2 BYD TouchPad'
+7,6,154,886,0,0,0,3967439,9,'ImPS/2 BYD TouchPad'
+7,6,150,886,0,0,0,3967447,9,'ImPS/2 BYD TouchPad'
+7,6,145,886,0,0,0,3967455,9,'ImPS/2 BYD TouchPad'
+7,6,139,886,0,0,0,3967465,9,'ImPS/2 BYD TouchPad'
+7,6,135,886,0,0,0,3967473,9,'ImPS/2 BYD TouchPad'
+7,6,132,886,0,0,0,3967483,9,'ImPS/2 BYD TouchPad'
+7,6,129,886,0,0,0,3967495,9,'ImPS/2 BYD TouchPad'
+7,6,128,886,0,0,0,3967505,9,'ImPS/2 BYD TouchPad'
+7,6,127,886,0,0,0,3967515,9,'ImPS/2 BYD TouchPad'
+7,6,126,886,0,0,0,3967525,9,'ImPS/2 BYD TouchPad'
+7,6,125,886,0,0,0,3967535,9,'ImPS/2 BYD TouchPad'
+7,6,124,886,0,0,0,3967547,9,'ImPS/2 BYD TouchPad'
+7,6,123,886,0,0,0,3967557,9,'ImPS/2 BYD TouchPad'
+7,6,122,886,0,0,0,3967567,9,'ImPS/2 BYD TouchPad'
+7,6,120,886,0,0,0,3967577,9,'ImPS/2 BYD TouchPad'
+7,6,118,887,0,0,0,3967589,9,'ImPS/2 BYD TouchPad'
+7,6,115,887,0,0,0,3967599,9,'ImPS/2 BYD TouchPad'
+7,6,113,887,0,0,0,3967615,9,'ImPS/2 BYD TouchPad'
+7,4,0,0,1,0,0,3967771,9,ImPS/2 BYD TouchPad
+6,4,0,0,1,0,0,3967771,2,Virtual core pointer
+7,6,112,887,0,0,0,3967855,9,'ImPS/2 BYD TouchPad'
+7,5,0,0,1,0,0,3967867,9,ImPS/2 BYD TouchPad
+6,5,0,0,1,0,0,3967867,2,Virtual core pointer
+7,6,111,887,0,0,0,3967878,9,'ImPS/2 BYD TouchPad'
+7,6,110,887,0,0,0,3967887,9,'ImPS/2 BYD TouchPad'
+7,4,0,0,1,0,0,3968381,9,ImPS/2 BYD TouchPad
+6,4,0,0,1,0,0,3968381,2,Virtual core pointer
+7,6,110,886,0,0,0,3968501,9,'ImPS/2 BYD TouchPad'
+7,5,0,0,1,0,0,3968500,9,ImPS/2 BYD TouchPad
+6,5,0,0,1,0,0,3968500,2,Virtual core pointer
+7,6,111,886,0,0,0,3968511,9,'ImPS/2 BYD TouchPad'
+7,6,112,885,0,0,0,3968519,9,'ImPS/2 BYD TouchPad'
+7,6,113,885,0,0,0,3968527,9,'ImPS/2 BYD TouchPad'
+7,6,114,885,0,0,0,3968540,9,'ImPS/2 BYD TouchPad'
+7,6,114,884,0,0,0,3968549,9,'ImPS/2 BYD TouchPad'
+7,6,115,884,0,0,0,3968675,9,'ImPS/2 BYD TouchPad'
+7,6,116,884,0,0,0,3968683,9,'ImPS/2 BYD TouchPad'
+7,6,117,883,0,0,0,3968691,9,'ImPS/2 BYD TouchPad'
+7,6,118,883,0,0,0,3968701,9,'ImPS/2 BYD TouchPad'
+7,6,119,882,0,0,0,3968711,9,'ImPS/2 BYD TouchPad'
+7,6,121,882,0,0,0,3968719,9,'ImPS/2 BYD TouchPad'
+7,6,123,881,0,0,0,3968726,9,'ImPS/2 BYD TouchPad'
+7,6,127,881,0,0,0,3968735,9,'ImPS/2 BYD TouchPad'
+7,6,130,881,0,0,0,3968745,9,'ImPS/2 BYD TouchPad'
+7,6,135,881,0,0,0,3968753,9,'ImPS/2 BYD TouchPad'
+7,6,138,881,0,0,0,3968761,9,'ImPS/2 BYD TouchPad'
+7,6,141,880,0,0,0,3968768,9,'ImPS/2 BYD TouchPad'
+7,6,145,880,0,0,0,3968777,9,'ImPS/2 BYD TouchPad'
+7,6,148,880,0,0,0,3968786,9,'ImPS/2 BYD TouchPad'
+7,6,152,880,0,0,0,3968795,9,'ImPS/2 BYD TouchPad'
+7,6,155,881,0,0,0,3968803,9,'ImPS/2 BYD TouchPad'
+7,6,158,881,0,0,0,3968813,9,'ImPS/2 BYD TouchPad'
+7,6,162,881,0,0,0,3968821,9,'ImPS/2 BYD TouchPad'
+7,6,165,882,0,0,0,3968831,9,'ImPS/2 BYD TouchPad'
+7,6,168,882,0,0,0,3968840,9,'ImPS/2 BYD TouchPad'
+7,6,171,882,0,0,0,3968849,9,'ImPS/2 BYD TouchPad'
+7,6,173,882,0,0,0,3968857,9,'ImPS/2 BYD TouchPad'
+7,6,175,882,0,0,0,3968869,9,'ImPS/2 BYD TouchPad'
+7,6,178,882,0,0,0,3968881,9,'ImPS/2 BYD TouchPad'
+7,6,181,882,0,0,0,3968891,9,'ImPS/2 BYD TouchPad'
+7,6,183,882,0,0,0,3968901,9,'ImPS/2 BYD TouchPad'
+7,6,185,882,0,0,0,3968911,9,'ImPS/2 BYD TouchPad'
+7,6,186,882,0,0,0,3968921,9,'ImPS/2 BYD TouchPad'
+7,6,187,882,0,0,0,3968931,9,'ImPS/2 BYD TouchPad'
+7,6,190,882,0,0,0,3968939,9,'ImPS/2 BYD TouchPad'
+7,6,192,882,0,0,0,3968947,9,'ImPS/2 BYD TouchPad'
+7,6,194,882,0,0,0,3968957,9,'ImPS/2 BYD TouchPad'
+7,6,195,882,0,0,0,3968967,9,'ImPS/2 BYD TouchPad'
+7,6,197,882,0,0,0,3968977,9,'ImPS/2 BYD TouchPad'
+7,6,199,882,0,0,0,3968987,9,'ImPS/2 BYD TouchPad'
+7,6,202,882,0,0,0,3969003,9,'ImPS/2 BYD TouchPad'
+7,6,204,882,0,0,0,3969010,9,'ImPS/2 BYD TouchPad'
+7,6,205,881,0,0,0,3969021,9,'ImPS/2 BYD TouchPad'
+7,6,206,881,0,0,0,3969029,9,'ImPS/2 BYD TouchPad'
+7,6,207,881,0,0,0,3969043,9,'ImPS/2 BYD TouchPad'
+7,6,208,881,0,0,0,3969099,9,'ImPS/2 BYD TouchPad'
+7,4,0,0,1,0,0,3969171,9,ImPS/2 BYD TouchPad
+6,4,0,0,1,0,0,3969171,2,Virtual core pointer
+7,5,0,0,1,0,0,3969288,9,ImPS/2 BYD TouchPad
+6,5,0,0,1,0,0,3969288,2,Virtual core pointer
+7,6,208,880,0,0,0,3969683,9,'ImPS/2 BYD TouchPad'
+7,6,209,880,0,0,0,3969691,9,'ImPS/2 BYD TouchPad'
+7,6,210,880,0,0,0,3969699,9,'ImPS/2 BYD TouchPad'
+7,6,211,878,0,0,0,3969709,9,'ImPS/2 BYD TouchPad'
+7,6,211,877,0,0,0,3969721,9,'ImPS/2 BYD TouchPad'
+7,6,211,876,0,0,0,3969731,9,'ImPS/2 BYD TouchPad'
+7,6,213,874,0,0,0,3969739,9,'ImPS/2 BYD TouchPad'
+7,6,215,871,0,0,0,3969747,9,'ImPS/2 BYD TouchPad'
+7,6,219,866,0,0,0,3969755,9,'ImPS/2 BYD TouchPad'
+7,6,226,858,0,0,0,3969764,9,'ImPS/2 BYD TouchPad'
+7,6,237,847,0,0,0,3969772,9,'ImPS/2 BYD TouchPad'
+7,6,246,836,0,0,0,3969781,9,'ImPS/2 BYD TouchPad'
+7,6,255,823,0,0,0,3969789,9,'ImPS/2 BYD TouchPad'
+7,6,263,811,0,0,0,3969797,9,'ImPS/2 BYD TouchPad'
+7,6,272,798,0,0,0,3969807,9,'ImPS/2 BYD TouchPad'
+7,6,277,783,0,0,0,3969815,9,'ImPS/2 BYD TouchPad'
+7,6,281,773,0,0,0,3969823,9,'ImPS/2 BYD TouchPad'
+7,6,285,762,0,0,0,3969831,9,'ImPS/2 BYD TouchPad'
+7,6,288,753,0,0,0,3969839,9,'ImPS/2 BYD TouchPad'
+7,6,289,744,0,0,0,3969849,9,'ImPS/2 BYD TouchPad'
+7,6,291,733,0,0,0,3969857,9,'ImPS/2 BYD TouchPad'
+7,6,293,724,0,0,0,3969865,9,'ImPS/2 BYD TouchPad'
+7,6,293,715,0,0,0,3969873,9,'ImPS/2 BYD TouchPad'
+7,6,293,704,0,0,0,3969881,9,'ImPS/2 BYD TouchPad'
+7,6,295,691,0,0,0,3969891,9,'ImPS/2 BYD TouchPad'
+7,6,298,662,0,0,0,3969899,9,'ImPS/2 BYD TouchPad'
+7,6,298,633,0,0,0,3969907,9,'ImPS/2 BYD TouchPad'
+7,6,301,603,0,0,0,3969915,9,'ImPS/2 BYD TouchPad'
+7,6,304,572,0,0,0,3969923,9,'ImPS/2 BYD TouchPad'
+7,6,307,542,0,0,0,3969931,9,'ImPS/2 BYD TouchPad'
+7,6,312,514,0,0,0,3969939,9,'ImPS/2 BYD TouchPad'
+7,6,312,491,0,0,0,3969948,9,'ImPS/2 BYD TouchPad'
+7,6,317,475,0,0,0,3969957,9,'ImPS/2 BYD TouchPad'
+7,6,317,459,0,0,0,3969965,9,'ImPS/2 BYD TouchPad'
+7,6,320,445,0,0,0,3969973,9,'ImPS/2 BYD TouchPad'
+7,6,322,430,0,0,0,3969981,9,'ImPS/2 BYD TouchPad'
+7,6,322,415,0,0,0,3969991,9,'ImPS/2 BYD TouchPad'
+7,6,322,397,0,0,0,3969999,9,'ImPS/2 BYD TouchPad'
+7,6,324,386,0,0,0,3970007,9,'ImPS/2 BYD TouchPad'
+7,6,324,377,0,0,0,3970016,9,'ImPS/2 BYD TouchPad'
+7,6,326,367,0,0,0,3970025,9,'ImPS/2 BYD TouchPad'
+7,6,328,357,0,0,0,3970033,9,'ImPS/2 BYD TouchPad'
+7,6,328,350,0,0,0,3970044,9,'ImPS/2 BYD TouchPad'
+7,6,328,343,0,0,0,3970052,9,'ImPS/2 BYD TouchPad'
+7,6,328,338,0,0,0,3970064,9,'ImPS/2 BYD TouchPad'
+7,6,328,335,0,0,0,3970074,9,'ImPS/2 BYD TouchPad'
+7,6,328,330,0,0,0,3970082,9,'ImPS/2 BYD TouchPad'
+7,6,328,326,0,0,0,3970090,9,'ImPS/2 BYD TouchPad'
+7,6,328,320,0,0,0,3970100,9,'ImPS/2 BYD TouchPad'
+7,6,330,314,0,0,0,3970110,9,'ImPS/2 BYD TouchPad'
+7,6,330,306,0,0,0,3970117,9,'ImPS/2 BYD TouchPad'
+7,6,330,304,0,0,0,3970126,9,'ImPS/2 BYD TouchPad'
+7,6,330,303,0,0,0,3970135,9,'ImPS/2 BYD TouchPad'
+

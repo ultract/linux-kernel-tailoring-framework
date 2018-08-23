@@ -1,0 +1,49 @@
+# Default Usecase
+
+모든창 간소화, 
+
+터미널 창 시작 문자열 출력, 
+
+휴지통 아이콘 클릭
+
+파일시스템 아이콘 클릭, 
+
+내 폴더 아이콘 클릭, 
+
+오른쪽 하단 패널 아이콘 클릭
+
+시작메뉴 등록 프로그램 확인, 
+
+시작메뉴 등록 프로그램 실행, 
+
+터미널 창 종료 문자열 출력
+
+# Browser Usecase
+
+모든창 간소화, 
+
+터미널 창 시작 문자열 출력, 
+
+브라우저 실행
+
+www.google.co.kr
+
+www.naver.com
+
+www.daum.net
+
+브라우저 기본 기능 수행
+
+html5test.com
+
+browserbench.org
+
+krakenbenchmark.mozilla.org
+
+david.blob.core.windows.net/html5/perf/prefixednumbers/index.htm
+
+# Benchmark Usecase
+
+모든창 간소화, Lmbench 실행(make results), Lmbench 시험 옵션 설정
+
+

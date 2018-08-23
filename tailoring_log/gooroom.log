@@ -1,0 +1,251 @@
+Gooroom Kernel Tailoring Finished! 
+
+ Total 557 Minutes and 2 Seconds Elapsed... 
+ [ Final Tailored .config ] 
+ [ Analysis of Kernel Configuration file ] 
+ Groups : 144
+ Enable : 562
+ Module : 90
+ Disable : 1612
+ Etc(Str, Num) : 65
+
+ [ First Tailored .config ] 
+ [ Analysis of Kernel Configuration file ] 
+ Groups : 144
+ Enable : 350
+ Module : 71
+ Disable : 1350
+ Etc(Str, Num) : 47
+
+ [ Localmodconfig .config ]
+ [ Analysis of Kernel Configuration file ] 
+ Groups : 144
+ Enable : 1194
+ Module : 101
+ Disable : 2329
+ Etc(Str, Num) : 83
+
+ [ Original .config ]
+ [ Analysis of Kernel Configuration file ] 
+ Groups : 144
+ Enable : 1785
+ Module : 3189
+ Disable : 1601
+ Etc(Str, Num) : 139
+
+
+ [ Distribution of Final Tailored .config ]
+     189 arch
+     12 block
+     47 crypto
+    142 drivers
+     43 fs
+     84 init
+     55 kernel
+     62 lib
+     25 mm
+     29 net
+     19 security
+     19 sound
+      2 usr
+      1 virt 
+ [ Distribution of First Tailored .config ]
+     148 arch
+      8 block
+     35 crypto
+     79 drivers
+     22 fs
+     48 init
+     42 kernel
+     40 lib
+     18 mm
+     16 net
+      8 security
+     14 sound
+      1 virt 
+ [ Distribution of Localmodconfig .config ]
+     256 arch
+     32 block
+     54 crypto
+    473 drivers
+     58 fs
+    125 init
+     89 kernel
+     99 lib
+     47 mm
+     73 net
+     52 security
+     25 sound
+      7 usr
+      1 virt 
+ [ Distribution of original .config ]
+     271 arch
+     32 block
+    130 crypto
+   3109 drivers
+    261 fs
+    126 init
+     93 kernel
+    127 lib
+     52 mm
+    640 net
+     52 security
+    214 sound
+      7 usr
+     14 virt 
+
+ [ Test Failure Log Data ] 
+ DMIID : phoronix-test-suite system-info - Before: <   MOTHERBOARD:        Intel 440BX
+<     BIOS Version:     6.00
+<     System Layer:     VMware After: >   MOTHERBOARD:        
+>     System Layer:     vmware
+
+PAGE_TABLE_ISOLATION : phoronix-test-suite system-info - Before: <     Security:         KPTI + __user pointer sanitization + Full generic retpoline IBPB Protection After: >     Security:         __user pointer sanitization + Full generic retpoline IBPB Protection
+
+UNIX98_PTYS : 
+
+DEVTMPFS : 
+
+RD_GZIP : 
+
+RETPOLINE : phoronix-test-suite system-info - Before: <     Security:         KPTI + __user pointer sanitization + Full generic retpoline Protection After: >     Security:         KPTI + __user pointer sanitization Protection
+journalctl log - > Spectre V2 : kernel not compiled with retpoline; no mitigation available!
+
+DRM_LEGACY : phoronix-test-suite system-info - Before:  After: > 
+> 
+
+FB_EFI : phoronix-test-suite system-info - Before:  After: > 
+> 
+
+ADVISE_SYSCALLS : Browser Not Working - Fatal Error
+
+DEFAULT_SECURITY_SMACK : Mounted File System - < smackfs
+
+STRICT_DEVMEM : checksec kernel - Before: <   Restrict /dev/mem access:                [32mEnabled [m After: >   Restrict /dev/mem access:                [31mDisabled [m
+checksec - Restrict /dev/mem access Disabled
+
+PRINTER : journalctl log - > Failed to find module 'lp'
+
+TIMERFD : 
+
+KEYBOARD_ATKBD : Keyboard Device Not Found!!
+
+TMPFS_POSIX_ACL : journalctl log - > Failed to apply ACL on /dev/dri/card0: Operation not supported
+> Failed to apply ACL on /dev/dri/renderD128: Operation not supported
+> Failed to apply ACL on /dev/sg1: Operation not supported
+> Failed to apply ACL on /dev/snd/controlC0: Operation not supported
+> Failed to apply ACL on /dev/snd/midiC0D0: Operation not supported
+> Failed to apply ACL on /dev/snd/pcmC0D0c: Operation not supported
+> Failed to apply ACL on /dev/snd/pcmC0D0p: Operation not supported
+> Failed to apply ACL on /dev/snd/pcmC0D1p: Operation not supported
+> Failed to apply ACL on /dev/snd/timer: Operation not supported
+> Failed to apply ACL on /dev/sr0: Operation not supported
+> Failed to apply ACLs: Operation not supported
+
+PACKET : IPv4 Address Not Set(ip)
+Ping to Gateway(192.168.2.1) Failed
+phoronix-test-suite system-info - Before:  After: > 
+> No Internet Connectivity
+> 
+journalctl log - > 
+> (Socket Filtering) are enabled in your kernel
+> CONFIG_PACKET (Packet socket) and CONFIG_FILTER
+> If you think you have received this message due to a bug rather
+> before submitting a bug.  These pages explain the proper
+> bugs on either our web page at www.isc.org or in the README file
+> configuration!
+> exiting.
+> process and the information we find helpful for debugging..
+> socket: Address family not supported by protocol - make sure
+> than a configuration issue please read the section on submitting
+
+UNIX : 
+
+EPOLL : 
+
+INPUT_KEYBOARD : Keyboard Device Not Found!!
+
+CC_STACKPROTECTOR_STRONG : checksec kernel - Before: <   GCC stack protector support:             [32mEnabled [m After: >   GCC stack protector support:             [31mDisabled [m
+
+SECURITY_SMACK : Mounted File System - < smackfs
+
+ACPI_DOCK : phoronix-test-suite system-info - Before: <   PROCESSOR:          Intel Xeon E5-2697 v3 @ 2.59GHz After: >   PROCESSOR:          Intel Xeon E5-2697 v3 @ 2.60GHz
+
+FILE_LOCKING : 
+
+MODULE_UNLOAD : Kernel Module Loading Failed!!
+
+BINFMT_SCRIPT : 
+
+SIGNALFD : 
+
+SHMEM : 
+
+FUTEX : 
+
+INOTIFY_USER : 
+
+RELOCATABLE : checksec kernel - Before: <   Address space layout randomization:      [32mEnabled [m After: >   Address space layout randomization:      [31mDisabled [m
+checksec - Kernel Address space layout randomization Disabled
+
+SERIAL_8250_CONSOLE : 
+
+ECRYPT_FS : journalctl log - > Failed to find module 'ecryptfs'
+
+IOSCHED_CFQ : phoronix-test-suite system-info - Before: <     Disk Scheduler:   CFQ After: >     Disk Scheduler:   NOOP
+
+RANDOMIZE_BASE : checksec kernel - Before: <   Address space layout randomization:      [32mEnabled [m After: >   Address space layout randomization:      [31mDisabled [m
+checksec - Kernel Address space layout randomization Disabled
+
+SUSPEND : Power Management - Disk(Suspend)
+
+SWAP : Power Management - Disk(Suspend)
+Power Management - State(disk)
+
+TMPFS : 
+
+SECURITY_SELINUX : checksec kernel - Before: < * SELinux:                                 [31mDisabled [m After: > * SELinux:                                 [31mNo SELinux [m
+
+HIBERNATION : Power Management - Disk(Suspend)
+Power Management - State(disk)
+
+NAMESPACES : IPv4 Address Not Set(ip)
+Mounted File System - < hugetlbfs
+Pulse Audio Hanging
+journalctl log - > Failed to start Hostname Service.
+> Failed to start RealtimeKit Scheduling Policy Service.
+> rtkit-daemon.service: Failed at step NETWORK spawning /usr/lib/rtkit/rtkit-daemon: Invalid argument
+> systemd-hostnamed.service: Failed at step NETWORK spawning /lib/systemd/systemd-hostnamed: Invalid argument
+
+PARPORT : journalctl log - > Failed to find module 'lp'
+> Failed to find module 'parport_pc'
+> Failed to find module 'ppdev'
+
+DMI : phoronix-test-suite system-info - Before: <   MOTHERBOARD:        Intel 440BX
+<     BIOS Version:     6.00
+<     System Layer:     VMware After: >   MOTHERBOARD:        
+>     System Layer:     vmware
+
+AUDIT : checksec kernel - Before: < * SELinux:                                 [31mDisabled [m After: > * SELinux:                                 [31mNo SELinux [m
+
+MULTIUSER : 
+
+MOUSE_PS2 : Mouse Device Not Found!!
+
+IPV6 : IPv6 Address Not Set(ip)
+journalctl log - > <error> [1534098327.8944] device (enp2s1): addrconf6: failed to start neighbor discovery: failure creating libndp socket: 주소군을 규약에서 지원하지 않음 (97)
+> <error> [1534098370.9162] device (enp2s1): addrconf6: failed to start neighbor discovery: failure creating libndp socket: 주소군을 규약에서 지원하지 않음 (97)
+
+INPUT_MOUSE : Mouse Device Not Found!!
+
+SECURITY : checksec kernel - Before: < * SELinux:                                 [31mDisabled [m After: > * SELinux:                                 [31mNo SELinux [m
+Mounted File System - < smackfs
+
+VT : 
+
+SYSFS : 
+
+SERIAL_8250 : 
+
+TTY :  
+ [ Kernel Build Failure Configuration ]

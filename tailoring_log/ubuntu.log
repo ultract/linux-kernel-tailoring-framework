@@ -1,0 +1,285 @@
+Ubuntu Kernel Tailoring Finished! 
+
+ Total 884 Minutes and 50 Seconds Elapsed... 
+ [ Final Tailored .config ] 
+ [ Analysis of Kernel Configuration file ] 
+ Groups : 150
+ Enable : 634
+ Module : 55
+ Disable : 1620
+ Etc(Str, Num) : 69
+
+ [ First Tailored .config ] 
+ [ Analysis of Kernel Configuration file ] 
+ Groups : 150
+ Enable : 338
+ Module : 45
+ Disable : 1423
+ Etc(Str, Num) : 45
+
+ [ Localmodconfig .config ]
+ [ Analysis of Kernel Configuration file ] 
+ Groups : 150
+ Enable : 1596
+ Module : 74
+ Disable : 2630
+ Etc(Str, Num) : 105
+
+ [ Original .config ]
+ [ Analysis of Kernel Configuration file ] 
+ Groups : 150
+ Enable : 2381
+ Module : 4937
+ Disable : 749
+ Etc(Str, Num) : 173
+
+
+ [ Distribution of Final Tailored .config ]
+     211 arch
+     15 block
+      2 certs
+     53 crypto
+    133 drivers
+     41 fs
+     83 init
+     66 kernel
+     66 lib
+     28 mm
+     33 net
+     20 security
+     19 sound
+      2 usr
+      1 virt 
+ [ Distribution of First Tailored .config ]
+     157 arch
+      8 block
+      4 crypto
+     74 drivers
+      7 fs
+     39 init
+     55 kernel
+     38 lib
+     21 mm
+     18 net
+      7 security
+     12 sound
+      1 virt 
+ [ Distribution of Localmodconfig .config ]
+     304 arch
+     40 block
+     10 certs
+     65 crypto
+    681 drivers
+     75 fs
+    140 init
+    111 kernel
+    116 lib
+     64 mm
+     84 net
+     65 security
+     30 sound
+      7 usr
+      1 virt 
+ [ Distribution of original .config ]
+     315 arch
+     45 block
+     10 certs
+    151 crypto
+   5085 drivers
+    280 fs
+    141 init
+    118 kernel
+    156 lib
+     67 mm
+    679 net
+     67 security
+    377 sound
+      1 ubuntu
+      7 usr
+     14 virt 
+
+ [ Test Failure Log Data ] 
+ VMAP_STACK : checksec kernel - Before: <   Virtually-mapped kernel stack:           [32mEnabled [m After: >   Virtually-mapped kernel stack:           [31mDisabled [m
+
+UNIX98_PTYS : 
+
+OSF_PARTITION : journalctl log - > Failed to mount Mount unit for core, revision 5145.
+
+SQUASHFS_XZ : Mounted File System - < squashfs
+journalctl log - > Failed to mount Mount unit for core.
+> squashfs: SQUASHFS error: Filesystem uses "xz" compression. This is not supported
+
+HARDENED_USERCOPY : checksec kernel - Before: <   Hardened Usercopy:                       [32mEnabled [m
+<   Hardened Usercopy Pagespan:              [31mDisabled [m After: >   Hardened Usercopy:                       [31mDisabled [m
+
+DMIID : phoronix-test-suite system-info - Before: <   MOTHERBOARD:        Intel 440BX
+<     BIOS Version:     6.00 After: >   MOTHERBOARD:        
+
+MODULE_UNLOAD : Kernel Module Loading Failed!!
+
+POSIX_TIMERS : journalctl log - > Failed to call clock_adjtime(): Function not implemented
+> Failed to start Update UTMP about System Boot/Shutdown.
+> Failed to write utmp record: Function not implemented
+> process 306 (wait-for-root) attempted a POSIX timer syscall while CONFIG_POSIX_TIMERS is not set
+
+PAGE_TABLE_ISOLATION : phoronix-test-suite system-info - Before: <     Security:         KPTI + __user pointer sanitization + Full generic retpoline IBPB IBRS_FW Protection After: >     Security:         __user pointer sanitization + Full generic retpoline IBPB IBRS_FW Protection
+
+RETPOLINE : phoronix-test-suite system-info - Before: <     Security:         KPTI + __user pointer sanitization + Full generic retpoline IBPB IBRS_FW Protection After: >     Security:         KPTI + __user pointer sanitization Protection
+journalctl log - > Spectre V2 : Spectre mitigation: kernel not compiled with retpoline; no mitigation available!
+
+RD_GZIP : 
+
+NET_VENDOR_CAVIUM : journalctl log - > Failed to mount Mount unit for core, revision 5145.
+
+SLAB_FREELIST_RANDOM : checksec kernel - Before: <   SLAB freelist randomization:             [32mEnabled [m After: >   SLAB freelist randomization:             [31mDisabled [m
+
+KEYBOARD_ATKBD : Keyboard Device Not Found!!
+
+PRINTER : journalctl log - > Failed to find module 'lp'
+
+SHMEM : 
+
+TIMERFD : 
+
+UNIX : 
+
+TMPFS_POSIX_ACL : journalctl log - > Failed to apply ACL on /dev/dmmidi: Operation not supported
+> Failed to apply ACL on /dev/dri/card0: Operation not supported
+> Failed to apply ACL on /dev/dri/renderD128: Operation not supported
+> Failed to apply ACL on /dev/midi: Operation not supported
+> Failed to apply ACL on /dev/rfkill: Operation not supported
+> Failed to apply ACL on /dev/sg1: Operation not supported
+> Failed to apply ACL on /dev/snd/controlC0: Operation not supported
+> Failed to apply ACL on /dev/snd/midiC0D0: Operation not supported
+> Failed to apply ACL on /dev/snd/pcmC0D0c: Operation not supported
+> Failed to apply ACL on /dev/snd/pcmC0D0p: Operation not supported
+> Failed to apply ACL on /dev/snd/pcmC0D1p: Operation not supported
+> Failed to apply ACL on /dev/snd/seq: Operation not supported
+> Failed to apply ACL on /dev/snd/timer: Operation not supported
+> Failed to apply ACL on /dev/sr0: Operation not supported
+> Failed to apply ACLs: Operation not supported
+
+CC_STACKPROTECTOR_STRONG : checksec kernel - Before: <   GCC stack protector support:             [32mEnabled [m After: >   GCC stack protector support:             [31mDisabled [m
+
+DEVTMPFS : 
+
+FILE_LOCKING : Pulse Audio Hanging
+journalctl log - > [autospawn] core-util.c: lock: Permission denied
+> Failed to create PID file: Permission denied
+> Failed to start Avahi mDNS/DNS-SD Stack.
+> Failed to start Firmware update daemon.
+> Failed to start Hostname Service.
+> Failed to start Locale Service.
+> Failed to start Manage, Install and Generate Color Profiles.
+> Failed to start Network Time Synchronization.
+> Failed to start Raise network interfaces.
+> Failed to start RealtimeKit Scheduling Policy Service.
+> Failed to start Update UTMP about System Boot/Shutdown.
+> Failed to write utmp record: Resource temporarily unavailable
+> [pulseaudio] main.c: Failed to acquire autospawn lock
+> rtkit-daemon.service: Failed at step NETWORK spawning /usr/lib/rtkit/rtkit-daemon: Permission denied
+> rtkit-daemon.service: Failed to set up network namespacing: Permission denied
+> systemd-hostnamed.service: Failed at step NETWORK spawning /lib/systemd/systemd-hostnamed: Permission denied
+> systemd-hostnamed.service: Failed to set up network namespacing: Permission denied
+> systemd-localed.service: Failed at step NETWORK spawning /lib/systemd/systemd-localed: Permission denied
+> systemd-localed.service: Failed to set up network namespacing: Permission denied
+> systemd-timesyncd.service: Failed at step USER spawning /lib/systemd/systemd-timesyncd: Permission denied
+> systemd-timesyncd.service: Failed to update dynamic user credentials: Permission denied
+
+CONFIGFS_FS : Mounted File System - < configfs
+
+EPOLL : 
+
+INPUT_KEYBOARD : Keyboard Device Not Found!!
+
+BINFMT_SCRIPT : 
+
+INPUT_EVDEV : Keyboard Device Not Found!!
+journalctl log - > cannot open input layer
+
+SIGNALFD : 
+
+PACKET : IPv4 Address Not Set(ip)
+Ping to Gateway(192.168.2.1) Failed
+phoronix-test-suite system-info - Before:  After: > No Internet Connectivity
+> 
+> 
+journalctl log - > 
+> before submitting a bug.  These pages explain the proper
+> bugs on either our web page at www.isc.org or in the README file
+> CONFIG_PACKET (Packet socket) and CONFIG_FILTER
+> configuration!
+> exiting.
+> Failed to start Network Manager Wait Online.
+> If you think you have received this message due to a bug rather
+> process and the information we find helpful for debugging..
+> socket: Address family not supported by protocol - make sure
+> (Socket Filtering) are enabled in your kernel
+> than a configuration issue please read the section on submitting
+
+FUSE_FS : Mounted File System - < fuse.gvfsd-fuse < fuse.vmware-vmblock
+journalctl log - > Failed to find module 'fuse'
+> Failed to mount VMware vmblock fuse mount.
+
+PARPORT_PC : journalctl log - > Failed to find module 'parport_pc'
+
+FUTEX : 
+
+SERIAL_8250_CONSOLE : 
+
+IOSCHED_CFQ : phoronix-test-suite system-info - Before: <     Disk Scheduler:   CFQ After: >     Disk Scheduler:   NOOP
+
+RANDOMIZE_BASE : checksec kernel - Before: <   Address space layout randomization:      [32mEnabled [m After: >   Address space layout randomization:      [31mDisabled [m
+checksec - Kernel Address space layout randomization Disabled
+
+INOTIFY_USER : 
+
+VIRTIO_BALLOON : phoronix-test-suite system-info - Before:  After: > No Internet Connectivity
+> 
+> 
+
+SUSPEND : Power Management - Disk(Suspend)
+
+SWAP : Power Management - Disk(Suspend)
+Power Management - State(disk)
+
+DMI : phoronix-test-suite system-info - Before: <   MOTHERBOARD:        Intel 440BX
+<     BIOS Version:     6.00 After: >   MOTHERBOARD:        
+
+HIBERNATION : Power Management - Disk(Suspend)
+Power Management - State(disk)
+
+MULTIUSER : 
+
+TMPFS : 
+
+PARPORT : journalctl log - > Failed to find module 'lp'
+> Failed to find module 'parport_pc'
+> Failed to find module 'ppdev'
+
+AUDIT : checksec kernel - Before: < * SELinux:                                 [31mDisabled [m After: > * SELinux:                                 [31mNo SELinux [m
+
+SECURITY_SELINUX : checksec kernel - Before: < * SELinux:                                 [31mDisabled [m After: > * SELinux:                                 [31mNo SELinux [m
+
+SQUASHFS : Mounted File System - < squashfs
+
+PRINTK : journalctl log - > activation of module imklog failed [v8.32.0 try http://www.rsyslog.com/e/2145 ]
+> imklog: cannot open kernel log (/proc/kmsg): No such file or directory.
+
+MISC_FILESYSTEMS : Mounted File System - < pstore < squashfs
+
+IPV6 : IPv6 Address Not Set(ip)
+journalctl log - > <error> [1534263640.7850] device (enp2s1): addrconf6: failed to start neighbor discovery: failure creating libndp socket: Address family not supported by protocol (97)
+
+EXT4_FS : 
+
+VT : 
+
+SECURITY : checksec kernel - Before: < * SELinux:                                 [31mDisabled [m After: > * SELinux:                                 [31mNo SELinux [m
+
+SERIAL_8250 :  
+ [ Kernel Build Failure Configuration ] 
+ WATCHDOG_CORE
+SECURITY_APPARMOR_HASH
+USB
+TTY
